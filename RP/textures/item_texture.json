@@ -2,6 +2,8 @@
 	"resource_pack_name": "twilight descent",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		// misc 
+		
 		"knife": {
 			"textures": "textures/items/knife"
 		},
@@ -17,6 +19,8 @@
 		"wisteria_sapling_placer": {
 			"textures": "textures/items/wisteria_sapling"
 		},
+		// ingots & plates 
+
 		"adamantite_ingot": {
 			"textures": "textures/items/adamantite_ingot"
 		},

@@ -437,8 +437,33 @@
 		"crystal_log":{
 			"textures": "textures/blocks/biomes/prismveil_wilds/crystal_log"
 		},
-		"prism_grass":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prism_grass"
+		"prism_grass_top_variations":{
+			"textures": {
+			"variations": [
+			{
+				"path": "textures/blocks/biomes/prismveil_wilds/prism_grass_top_0",
+				"weight": 10
+			},
+			{
+				"path": "textures/blocks/biomes/prismveil_wilds/prism_grass_top_1",
+				"weight": 10
+			},
+			{
+				"path": "textures/blocks/biomes/prismveil_wilds/prism_grass_top_2",
+				"weight": 10
+			},
+			{
+				"path": "textures/blocks/biomes/prismveil_wilds/prism_grass_top_3",
+				"weight": 10
+			}
+			]
+		}
+		},
+		"prism_grass_side":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/prism_grass_side"
+		},
+		"prism_grass_dirt":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/prism_grass_dirt"
 		},
 		"prism_log":{		
 			"textures": "textures/blocks/biomes/prismveil_wilds/prism_log"
