@@ -6,7 +6,7 @@
       "places_feature": "td:concord_flowers_feature"
     },
     "conditions": {
-      "placement_pass": "after_surface_pass",
+      "placement_pass": "surface_pass",
       "minecraft:biome_filter": [
         {
           "test": "has_biome_tag",

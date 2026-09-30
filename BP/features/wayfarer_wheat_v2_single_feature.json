@@ -15,6 +15,20 @@
         "td:concord_grass_block"
       ]
     },
+    "may_not_attach_to": {
+      "sides": [
+        "td:hearth_clover",
+        "td:memory_daisies",
+        "td:golden_bellflower",
+        "td:wayside_shrub"
+      ],
+      "diagonal": [
+        "td:hearth_clover",
+        "td:memory_daisies",
+        "td:golden_bellflower",
+        "td:wayside_shrub"
+      ]
+    },
     "enforce_placement_rules": false,
     "enforce_survivability_rules": false
   }

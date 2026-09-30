@@ -7,11 +7,7 @@
     "places_feature": "td:wayfarer_wheat_v2_single_feature",
     "project_input_to_floor": true,
     "distribution": {
-      "iterations": 9,
-      "scatter_chance": {
-        "numerator": 3,
-        "denominator": 4
-      },
+      "iterations": 7,
       "x": {
         "distribution": "uniform",
         "extent": [

@@ -2,8 +2,8 @@
   "format_version": "1.26.30",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "td:wayfarer_wheat_v2_patch_feature_rule",
-      "places_feature": "td:wayfarer_wheat_v2_patch_feature"
+      "identifier": "td:hearthoak_tree_feature_rule",
+      "places_feature": "td:hearthoak_tree_snap_feature"
     },
     "conditions": {
       "placement_pass": "after_surface_pass",
@@ -17,24 +17,21 @@
     },
     "distribution": {
       "iterations": 1,
+      "scatter_chance": 0.5,
       "coordinate_eval_order": "xzy",
-      "scatter_chance": {
-        "numerator": 2,
-        "denominator": 3
-      },
       "x": {
         "distribution": "uniform",
         "extent": [
-          0,
-          15
+          2,
+          13
         ]
       },
-      "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
       "z": {
         "distribution": "uniform",
         "extent": [
-          0,
-          15
+          2,
+          13
         ]
       }
     }
