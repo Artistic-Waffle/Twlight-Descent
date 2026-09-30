@@ -1,0 +1,38 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:concord_flowers_feature"
+    },
+    "places_block": [
+      {
+        "block": "td:hearth_clover",
+        "weight": 4
+      },
+      {
+        "block": "td:memory_daisies",
+        "weight": 3
+      },
+      {
+        "block": "td:golden_bellflower",
+        "weight": 2
+      },
+      {
+        "block": "td:wayside_shrub",
+        "weight": 2
+      }
+    ],
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "td:concord_grass_block"
+      ]
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

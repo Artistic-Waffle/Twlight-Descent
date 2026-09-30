@@ -1,0 +1,19 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "td:concord_stone_feature"
+    },
+
+    "count": 128,
+
+    "replace_rules": [
+      {
+        "places_block": "td:concord_stone",
+        "may_replace": [
+          "minecraft:stone"
+        ]
+      }
+    ]
+  }
+}

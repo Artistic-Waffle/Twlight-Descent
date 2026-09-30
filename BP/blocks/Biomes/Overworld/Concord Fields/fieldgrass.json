@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.3",
+    "format_version": "1.26.5",
     "minecraft:block": {
         "description": {
             "identifier": "td:fieldgrass",
@@ -26,7 +26,20 @@
                 "origin": [-8,0,-8],
                 "size": [16,16,16]
             },
-            "minecraft:display_name": "Field Grass"
+            "minecraft:display_name": "Field Grass",
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "td:concord_grass_block"
+                        ]
+                    }
+                ]
+            }
+
         }
     }
 }

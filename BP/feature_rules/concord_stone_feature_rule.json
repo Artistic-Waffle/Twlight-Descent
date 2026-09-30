@@ -1,0 +1,41 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:feature_rules": {
+
+    "description": {
+      "identifier": "td:concord_stone_feature_rule",
+      "places_feature": "td:concord_stone_feature"
+    },
+
+    "conditions": {
+      "placement_pass": "underground_pass",
+
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "concord_fields"
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 96,
+
+      "x": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      },
+
+      "y": {
+        "distribution": "uniform",
+        "extent": [-8, 128]
+      },
+
+      "z": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      }
+    }
+  }
+}
