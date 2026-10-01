@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "td:hearthoak_fallen_hollow_structure_feature"
+    },
+    "structure_name": "td:hallow_hearthoak_log",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "rotate_around_center": true,
+    "ground_level": 0,
+    "constraints": {
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "td:concord_grass_block",
+          "td:concord_soil",
+          "td:fieldgrass",
+          "td:tall_fieldgrass",
+          "td:hearth_clover",
+          "td:memory_daisies",
+          "td:golden_bellflower",
+          "td:wayside_shrub",
+          "td:wayfarer_wheat",
+          "td:wayfarer_wheat_v2"
+        ],
+        "only_check_intersection_for_motion_blocking_blocks": true
+      }
+    }
+  }
+}
