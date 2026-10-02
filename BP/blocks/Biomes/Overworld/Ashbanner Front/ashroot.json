@@ -2,7 +2,7 @@
     "format_version": "1.26.3",
     "minecraft:block": {
         "description": {
-            "identifier": "td:ash_root",
+            "identifier": "td:ashroot",
             "menu_category": {
                 "category": "construction"
             }
@@ -17,10 +17,7 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane"
             },
-            "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
-            },
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
                 "origin": [-8,0,-8],
                 "size": [16,16,16]

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "td:scorched_banneroak_selector_feature"
+    },
+
+    "features": [
+      [
+        "td:scorched_banneroak_bare_feature",
+        1
+      ],
+      [
+        "td:scorched_banneroak_sparse_feature",
+        3
+      ]
+    ]
+  }
+}

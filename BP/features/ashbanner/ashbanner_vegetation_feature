@@ -1,0 +1,48 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:ashbanner_vegetation_feature"
+    },
+
+    "places_block": [
+      {
+        "block": "td:battlefield_grass",
+        "weight": 8
+      },
+      {
+        "block": "td:ashroot",
+        "weight": 2
+      },
+      {
+        "block": "td:ironweed",
+        "weight": 2
+      },
+      {
+        "block": "td:trench_thistle",
+        "weight": 1
+      },
+      {
+        "block": "td:thorn_bush",
+        "weight": 1
+      }
+    ],
+
+    "may_replace": [
+      "minecraft:air"
+    ],
+
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+
+      "bottom": [
+        "td:ashbanner_grass_block",
+        "td:war_torn_soil"
+      ]
+    },
+
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

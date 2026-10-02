@@ -1,0 +1,59 @@
+{
+  "format_version": "1.26.3",
+
+  "minecraft:biome": {
+    "description": {
+      "identifier": "td:ashbanner_front"
+    },
+
+    "components": {
+      "minecraft:climate": {
+        "temperature": 1.2,
+        "downfall": 0.2,
+        "snow_accumulation": [0.0, 0.0]
+      },
+
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+
+          "sea_floor_depth": 6,
+
+          "sea_floor_material": "td:scorched_gravel",
+
+          "foundation_material": "td:ashbanner_stone",
+
+          "mid_material": "td:war_torn_soil",
+
+          "top_material": "td:ashbanner_grass_block",
+
+          "sea_material": "minecraft:water"
+        }
+      },
+
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+
+            "targets": [
+              "minecraft:savanna"
+            ],
+
+            "amount": 0.18,
+
+            "noise_frequency_scale": 0.12 
+          }
+        ]
+      },
+
+      "minecraft:tags": {
+        "tags": [
+          "overworld",
+          "no_legacy_worldgen",
+          "ashbanner_front"
+        ]
+      }
+    }
+  }
+}

@@ -820,8 +820,33 @@
 		"ashbanner_stone":{
 			"textures" : "textures/overworld/ashbanner_front/ashbanner_stone"
 		},
-		"ashbanner_grass":{
-			"textures" : "textures/overworld/ashbanner_front/ashbanner_grass"
+		"ashbanner_grass_top_variations":{
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/overworld/ashbanner_front/ashbanner_grass_top_0",
+						"weight": 10
+					},
+					{
+						"path": "textures/overworld/ashbanner_front/ashbanner_grass_top_1",
+						"weight": 10
+					},
+					{
+						"path": "textures/overworld/ashbanner_front/ashbanner_grass_top_2",
+						"weight": 10
+					},
+					{
+						"path": "textures/overworld/ashbanner_front/ashbanner_grass_top_3",
+						"weight": 10
+					}
+				]
+			}
+		},
+		"ashbanner_grass_side":{
+			"textures" : "textures/overworld/ashbanner_front/ashbanner_grass_side"
+		},
+		"ashbanner_grass_bottom":{
+			"textures" : "textures/overworld/ashbanner_front/ashbanner_grass_bottom"
 		},
 		"trench_thistle":{
 			"textures" : "textures/overworld/ashbanner_front/trench_thistle"

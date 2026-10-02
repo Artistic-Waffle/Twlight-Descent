@@ -9,13 +9,33 @@
         },
         "components": {
             "minecraft:material_instances": {
-                "*": {
-                    "texture": "ashbanner_grass",
+                "up": {
+                    "texture": "ashbanner_grass_top_variations",
+                    "render_method": "opaque"
+                },
+                "north": {
+                    "texture": "ashbanner_grass_side",
+                    "render_method": "opaque"
+                },
+                "south": {
+                    "texture": "ashbanner_grass_side",
+                    "render_method": "opaque"
+                },
+                "west": {
+                    "texture": "ashbanner_grass_side",
+                    "render_method": "opaque"
+                },
+                "east": {
+                    "texture": "ashbanner_grass_side",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "ashbanner_grass_bottom",
                     "render_method": "opaque"
                 }
             },
             "minecraft:geometry": {
-                "identifier": "geometry.block"
+                "identifier": "minecraft:geometry.full_block"
             },
             "minecraft:collision_box": {
                 "origin": [-8,0,-8],

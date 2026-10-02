@@ -17,15 +17,12 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane"
             },
-            "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
-            },
+             "minecraft:collision_box": false,
             "minecraft:selection_box": {
                 "origin": [-8,0,-8],
                 "size": [16,16,16]
             },
-            "minecraft:display_name": "thorn_bush"
+            "minecraft:display_name": "Thorn Bush"
         }
     }
 }
