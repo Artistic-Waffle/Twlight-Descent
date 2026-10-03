@@ -1,0 +1,19 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "td:riftbark_tree_selector_feature"
+    },
+
+    "features": [
+      [
+        "td:riftbark_tree_1_snap_feature",
+        4
+      ],
+      [
+        "td:riftbark_tree_2_snap_feature",
+        1
+      ]
+    ]
+  }
+}

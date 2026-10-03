@@ -1,0 +1,43 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:prismward_flowers_feature"
+    },
+
+    "places_block": [
+      {
+        "block": "td:dawnpetal_bloom",
+        "weight": 4
+      },
+      {
+        "block": "td:pale_prism_orchid",
+        "weight": 3
+      },
+      {
+        "block": "td:moontear_lily",
+        "weight": 2
+      },
+      {
+        "block": "td:aurel_prismbloom",
+        "weight": 1
+      }
+    ],
+
+    "may_replace": [
+      "minecraft:air"
+    ],
+
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+
+      "bottom": [
+        "td:prism_grass"
+      ]
+    },
+
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

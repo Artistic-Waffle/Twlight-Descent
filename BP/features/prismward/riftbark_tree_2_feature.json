@@ -1,0 +1,19 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "td:riftbark_tree_2_feature"
+    },
+
+    "structure_name": "td:riftbark_tree_2",
+
+    "adjustment_radius": 0,
+    "facing_direction": "random",
+    "rotate_around_center": true,
+    "ground_level": 1,
+
+    "constraints": {
+        "grounded": {}
+    }
+  }
+}

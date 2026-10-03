@@ -1,0 +1,43 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:prismward_foliage_feature"
+    },
+
+    "places_block": [
+      {
+        "block": "td:prismsprig",
+        "weight": 6
+      },
+      {
+        "block": "td:glade_fern",
+        "weight": 5
+      },
+      {
+        "block": "td:crystal_fern",
+        "weight": 4
+      },
+      {
+        "block": "td:petalshard_sprout",
+        "weight": 3
+      }
+    ],
+
+    "may_replace": [
+      "minecraft:air"
+    ],
+
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+
+      "bottom": [
+        "td:prism_grass"
+      ]
+    },
+
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

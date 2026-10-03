@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "td:prismward_glade"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#6947b8"
+      },
+
+      "minecraft:water_appearance": {
+        "surface_color": "#0cc099"
+      }
+    }
+  }
+}

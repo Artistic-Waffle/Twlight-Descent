@@ -1,0 +1,23 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "td:riftbark_tree_1_snap_feature"
+    },
+
+    "feature_to_snap": "td:riftbark_tree_1_feature",
+
+    "search_range": 64,
+    "surface": "floor",
+
+    "allow_air_placement": true,
+    "allow_non_air_placement": true,
+    "allow_underwater_placement": false,
+
+    "allowed_surface_blocks": [
+      "td:prism_grass"
+    ],
+
+    "embed_in_surface": false
+  }
+}

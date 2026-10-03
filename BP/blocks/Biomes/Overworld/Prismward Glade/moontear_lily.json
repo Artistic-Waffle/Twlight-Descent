@@ -18,10 +18,7 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane_double"
             },
-            "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
-            },
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
                 "origin": [-8,0,-8],
                 "size": [16,16,16]

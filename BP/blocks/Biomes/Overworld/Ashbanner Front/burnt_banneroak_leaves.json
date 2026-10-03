@@ -11,7 +11,7 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "burnt_banneroak_leaves",
-                    "render_method": "alpha_test"
+                    "render_method": "alpha_test_to_opaque"
                 }
             },
             "minecraft:geometry": {
