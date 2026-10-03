@@ -236,7 +236,7 @@
 			"textures": "textures/blocks/biomes/twilight/twilight_gloom"
 		},
 		"solarite_cluster":{
-			"textures": "textures/blocks/biomes/enigma_grove/solarite_cluster"
+			"textures": "textures/blocks/minerals/crystals/solarite_cluster"
 		},
 		"moonbeam_cluster":{
 			"textures": "textures/blocks/minerals/crystals/moonbeam_cluster"
@@ -964,6 +964,18 @@
 		},
 		"void_archive_stone":{
 			"textures" : "textures/under_archive/redacted_deep/void_archive_stone"
+		},
+		"bloom_leaves":{
+			"textures" : "textures/blocks/biomes/prismveil_wilds/bloom_leaves"
+		},
+		"crystal_leaves":{
+			"textures" : "textures/blocks/biomes/prismveil_wilds/crystal_leaves"
+		},
+		"shimmer_leaves":{
+			"textures" : "textures/blocks/biomes/prismveil_wilds/shimmer_leaves"
+		},
+		"riftbark_log":{
+			"textures" : "textures/blocks/biomes/prismveil_wilds/riftbark_log"
 		}
 	}
 }

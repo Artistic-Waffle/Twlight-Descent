@@ -2,7 +2,7 @@
     "format_version": "1.26.3",
     "minecraft:block": {
         "description": {
-            "identifier": "td:solarite_cluster",
+            "identifier": "td:moonbeam_cluster",
             "menu_category": {
                 "category": "nature"
             }
@@ -11,8 +11,8 @@
             
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "solarite_cluster",
-                    "render_method": "alpha_test",
+                    "texture": "moonbeam_cluster",
+                    "render_method": "alpha_test_single_sided",
                     "face_dimming": false
                 }
             },
@@ -24,7 +24,7 @@
 				"origin": [-5,0,-5],
 				"size": [10,7,10]
 			},
-            "minecraft:display_name": "Solarite Cluster",
+            "minecraft:display_name": "Moonbeam Cluster",
             "minecraft:geometry":{
                 "identifier": "geometry.crystal_cluster"
             }
