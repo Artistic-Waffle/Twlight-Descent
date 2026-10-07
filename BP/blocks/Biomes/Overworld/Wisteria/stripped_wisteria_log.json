@@ -9,7 +9,7 @@
 		},
 		"components": {
 			"minecraft:geometry": {
-				"identifier": "geometry.unit_cube"
+				"identifier": "geometry.block"
 			},
 			"minecraft:collision_box": {
 				"origin": [-8, 0, -8],
@@ -22,14 +22,6 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "stripped_wisteria_log",
-					"render_method": "opaque"
-				},
-				"up": {
-					"texture": "wisteria_log_top",
-					"render_method": "opaque"
-				},
-				"down": {
-					"texture": "wisteria_log_top",
 					"render_method": "opaque"
 				}
 			},

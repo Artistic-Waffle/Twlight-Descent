@@ -5,22 +5,22 @@
 	"texture_name": "atlas.terrain",
 	"texture_data": {
 		"whisperwood" : {
-			"textures": "textures/blocks/biomes/whisper/whisperwood"
+			"textures": "textures/blocks/biomes/null/whisper/whisperwood"
 		},
 		"whisperwood_top" : {
-			"textures" : "textures/blocks/biomes/whisper/whisperwood_top"
+			"textures" : "textures/blocks/biomes/null/whisper/whisperwood_top"
 		},
 		"whisperwood_planks":{
-			"textures": "textures/blocks/biomes/whisper/whisperwood_planks"
+			"textures": "textures/blocks/biomes/null/whisper/whisperwood_planks"
 		},
 		"whisperwood_leaves":{
-			"textures": "textures/blocks/biomes/whisper/whisperwood_leaves"
+			"textures": "textures/blocks/biomes/null/whisper/whisperwood_leaves"
 		},
 		"whispershade_grass_side":{
-			"textures": "textures/blocks/biomes/whisper/whispershade_grass_side"
+			"textures": "textures/blocks/biomes/null/whisper/whispershade_grass_side"
 		},
 		"whispershade_grass_top":{
-			"textures": "textures/blocks/biomes/whisper/whispershade_grass_top"
+			"textures": "textures/blocks/biomes/null/whisper/whispershade_grass_top"
 		},
 		"cherry_chair_fancy":{
 			"textures": "textures/blocks/decor/chairs/cherry_chair_fancy"
@@ -260,31 +260,31 @@
 			"textures": "textures/blocks/decor/chairs/pale_chair"
 		},
 		"wisteria_leaves":{
-			"textures": "textures/blocks/biomes/wisteria/wisteria_leaves"
+			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_leaves"
 		},
 		"unknown_stone":{
-			"textures": "textures/blocks/biomes/wisteria/unknown_stone"
+			"textures": "textures/blocks/biomes/overworld/wisteria/unknown_stone"
 		},
 		"unknown_grass_block_side":{
-			"textures": "textures/blocks/biomes/wisteria/unknown_grass_block_side"
+			"textures": "textures/blocks/biomes/overworld/wisteria/unknown_grass_block_side"
 		},
 		"unknown_grass_block_top":{
-			"textures": "textures/blocks/biomes/wisteria/unknown_grass_block_top"
+			"textures": "textures/blocks/biomes/overworld/wisteria/unknown_grass_block_top"
 		},
 		"wisteria_sapling":{
-			"textures": "textures/blocks/biomes/wisteria/wisteria_sapling"
+			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_sapling"
 		},
 		"wisteria_log":{
-			"textures": "textures/blocks/biomes/wisteria/wisteria_log"
+			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_log"
 		},
 		"stripped_wisteria_log":{
-			"textures": "textures/blocks/biomes/wisteria/stripped_wisteria_log"
+			"textures": "textures/blocks/biomes/overworld/wisteria/stripped_wisteria_log"
 		},
 		"wisteria_log_top":{
-			"textures": "textures/blocks/biomes/wisteria/wisteria_log_top"
+			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_log_top"
 		},
 		"wisteria_planks":{
-			"textures": "textures/blocks/biomes/wisteria/wisteria_planks"
+			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_planks"
 		},
 		"cutting_board":{
 			"textures": "textures/blocks/cutting_boards/cutting_board"
@@ -434,548 +434,791 @@
 		"bar_table":{
 			"textures": "textures/blocks/decor/tables/bar_table"
 		},
+		// Prismveil Wilds Textures
 		"crystal_log":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/crystal_log"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystal_log"
 		},
 		"prism_grass_top_variations":{
 			"textures": {
 			"variations": [
 			{
-				"path": "textures/blocks/biomes/prismveil_wilds/prism_grass_top_0",
+				"path": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_top_0",
 				"weight": 10
 			},
 			{
-				"path": "textures/blocks/biomes/prismveil_wilds/prism_grass_top_1",
+				"path": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_top_1",
 				"weight": 10
 			},
 			{
-				"path": "textures/blocks/biomes/prismveil_wilds/prism_grass_top_2",
+				"path": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_top_2",
 				"weight": 10
 			},
 			{
-				"path": "textures/blocks/biomes/prismveil_wilds/prism_grass_top_3",
+				"path": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_top_3",
 				"weight": 10
 			}
 			]
 		}
 		},
 		"prism_grass_side":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prism_grass_side"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_side"
 		},
 		"prism_grass_dirt":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prism_grass_dirt"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_dirt"
 		},
 		"prism_log":{		
-			"textures": "textures/blocks/biomes/prismveil_wilds/prism_log"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prism_log"
 		},
 		"prism_soil":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prism_soil"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prism_soil"
 		},
 		"cobbled_gleamstone":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/cobbled_gleamstone"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/cobbled_gleamstone"
 		},
 		"gleamstone":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/gleamstone"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/gleamstone"
 		},
 		"veilmoss":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veilmoss"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veilmoss"
 		},
 		"crystal_bloom_leaves":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/crystal_bloom_leaves"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystal_bloom_leaves"
 		},
 		"prismsprig":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prismsprig"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prismsprig"
 		},
 		"crystal_fern":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/crystal_fern"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystal_fern"
 		},
 		"dawnpetal_bloom":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/dawnpetal_bloom"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/dawnpetal_bloom"
 		},
 		"sunshard_bloom":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/sunshard_bloom"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/sunshard_bloom"
 		},
 		"veilvine_tassels":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veilvine_tassels"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veilvine_tassels"
 		},
 		"starbush_reeds":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/starbush_reeds"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/starbush_reeds"
 		},
 		"cyan_wisp_crystal":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/cyan_wisp_crystal"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/cyan_wisp_crystal"
 		},
 		"lilac_crystal_cluster":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/lilac_crystal_cluster"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/lilac_crystal_cluster"
 		},
 		"petalshard_sprout":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/petalshard_sprout"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/petalshard_sprout"
 		},
 		"prismbud_cluster":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prismbud_cluster"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prismbud_cluster"
 		},
 		"prismreeds":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prismreeds"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prismreeds"
 		},
 		"glade_fern":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/glade_fern"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/glade_fern"
 		},
 		"prism_grass_v2":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prism_grass_v2"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_v2"
 		},
 		"spectral_bloomstone":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/spectral_bloomstone"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/spectral_bloomstone"
 		},
 		"crystalized_sprectral_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/crystalized_sprectral_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystalized_sprectral_block"
 		},
 		"cobbled_gleamstone_v2":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/cobbled_gleamstone_v2"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/cobbled_gleamstone_v2"
 		},
 		"crystal_bloom_leaves_v2":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/crystal_bloom_leaves_v2"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystal_bloom_leaves_v2"
+		},
+		"crystal_bloom_leaves_pink":{
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystal_bloom_leaves_pink"
 		},
 		"aurel_prismbloom":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/aurel_prismbloom"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/aurel_prismbloom"
 		},
 		"pale_prism_orchid":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/pale_prism_orchid"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/pale_prism_orchid"
 		},
 		"moontear_lily":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/moontear_lily"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/moontear_lily"
 		},
 		"veildepth_stone":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_stone"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_stone"
 		},
 		"prismward_stone":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prismward_stone"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prismward_stone"
 		},
 		"veilrite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veilrite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veilrite_ore"
 		},
 		"veildepth_veilrite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_veilrite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_veilrite_ore"
 		},
 		"starvein_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/starvein_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/starvein_ore"
 		},
 		"veildepth_starvein_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_starvein_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_starvein_ore"
 		},
 		"slyphrite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/slyphrite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/slyphrite_ore"
 		},
 		"veildepth_slyphrite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_slyphrite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_slyphrite_ore"
 		},
 		"prismite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prismite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prismite_ore"
 		},
 		"veildepth_prismite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_prismite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_prismite_ore"
 		},
 		"shardiron_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/shardiron_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/shardiron_ore"
 		},
 		"veildepth_shardiron_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_shardiron_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_shardiron_ore"
 		},
 		"lumenite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/lumenite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/lumenite_ore"
 		},
 		"veildepth_lumenite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_lumenite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_lumenite_ore"
 		},
 		"bloomwake_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/bloomwake_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/bloomwake_ore"
 		},
 		"veildepth_bloomwake_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_bloomwake_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_bloomwake_ore"
 		},
 		"aetherite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/aetherite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/aetherite_ore"
 		},
 		"veildepth_aetherite_ore":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_aetherite_ore"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veildepth_aetherite_ore"
 		},
 		"shardiron_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/shardiron_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/shardiron_block"
 		},
 		"lumenite_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/lumenite_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/lumenite_block"
 		},
 		"bloomwake_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/bloomwake_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/bloomwake_block"
 		},
 		"raw_bloomwake_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/raw_bloomwake_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/raw_bloomwake_block"
 		},
 		"aetherite_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/aetherite_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/aetherite_block"
 		},
 		"slyphrite_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/slyphrite_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/slyphrite_block"
 		},
 		"raw_slyphrite_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/raw_slyphrite_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/raw_slyphrite_block"
 		},
 		"prismite_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/prismite_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prismite_block"
 		},
 		"veilrite_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veilrite_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veilrite_block"
 		},
 		"starvein_block":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/starvein_block"
+			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/starvein_block"
 		},
+		// Concord Fields Textures
 		"chiseled_concord_stonebricks": {
-			"textures": "textures/overworld/concord_fields/chiseled_concord_stonebricks"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/chiseled_concord_stonebricks"
 		},
 		"concord_stonebricks": {
-			"textures": "textures/overworld/concord_fields/concord_stonebricks"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/concord_stonebricks"
 		},
 		"mossy_concord_stonebricks": {
-			"textures": "textures/overworld/concord_fields/mossy_concord_stonebricks"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/mossy_concord_stonebricks"
 		},
 		"cracked_concord_stonebricks": {
-			"textures": "textures/overworld/concord_fields/cracked_concord_stonebricks"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/cracked_concord_stonebricks"
 		},
 		"concord_cobblestone": {
-			"textures": "textures/overworld/concord_fields/concord_cobblestone"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/concord_cobblestone"
 		},
 		"concord_stone": {
-			"textures": "textures/overworld/concord_fields/concord_stone"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/concord_stone"
 		},
 		"concord_deepslate": {
-			"textures": "textures/overworld/concord_fields/concord_deepslate"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/concord_deepslate"
 		},
 		"fieldgrass": {
-			"textures": "textures/overworld/concord_fields/fieldgrass"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/fieldgrass"
 		},
 		"concord_soil": {
-			"textures": "textures/overworld/concord_fields/concord_soil"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/concord_soil"
 		},
 		"concord_grass_top_variations": {
 		"textures": {
 			"variations": [
 			{
-				"path": "textures/overworld/concord_fields/concord_grass_top_0",
+				"path": "textures/blocks/biomes/overworld/concord_fields/concord_grass_top_0",
 				"weight": 10
 			},
 			{
-				"path": "textures/overworld/concord_fields/concord_grass_top_1",
+				"path": "textures/blocks/biomes/overworld/concord_fields/concord_grass_top_1",
 				"weight": 10
 			},
 			{
-				"path": "textures/overworld/concord_fields/concord_grass_top_2",
+				"path": "textures/blocks/biomes/overworld/concord_fields/concord_grass_top_2",
 				"weight": 10
 			},
 			{
-				"path": "textures/overworld/concord_fields/concord_grass_top_3",
+				"path": "textures/blocks/biomes/overworld/concord_fields/concord_grass_top_3",
 				"weight": 10
 			}
 			]
 		}
 		},
 		"concord_grass_side":{
-			"textures": "textures/overworld/concord_fields/concord_grass_side"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/concord_grass_side"
 		},
 		"concord_stonebricks_tile":{
-			"textures": "textures/overworld/concord_fields/concord_stonebricks_tile"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/concord_stonebricks_tile"
 		},
 		"golden_bellflower": {
-			"textures": "textures/overworld/concord_fields/golden_bellflower"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/golden_bellflower"
 		},
 		"hearthoak_leaves": {
-			"textures": "textures/overworld/concord_fields/hearthoak_leaves"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hearthoak_leaves"
 		},
 		"hearthoak_log": {
-			"textures": "textures/overworld/concord_fields/hearthoak_log"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hearthoak_log"
 		},
 		"hearthoak_planks": {
-			"textures": "textures/overworld/concord_fields/hearthoak_planks"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hearthoak_planks"
 		},
 		"hearthoak_sapling": {
-			"textures": "textures/overworld/concord_fields/hearthoak_sapling"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hearthoak_sapling"
 		},
 		"hearthoak_wood": {
-			"textures": "textures/overworld/concord_fields/hearthoak_wood"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hearthoak_wood"
 		},
 		"hallow_hearthoak_log": {
-			"textures": "textures/overworld/concord_fields/hallow_hearthoak_log"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hallow_hearthoak_log"
 		},
 		"hearth_clover": {
-			"textures": "textures/overworld/concord_fields/hearth_clover"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hearth_clover"
 		},
 		"memory_daisies": {
-			"textures": "textures/overworld/concord_fields/memory_daisies"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/memory_daisies"
 		},
 		"mossy_concord_cobblestone": {
-			"textures": "textures/overworld/concord_fields/mossy_concord_cobblestone"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/mossy_concord_cobblestone"
 		},
 		"stripped_hearthoak_log": {
-			"textures": "textures/overworld/concord_fields/stripped_hearthoak_log"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/stripped_hearthoak_log"
 		},
 		"stripped_hearthoak_wood": {
-			"textures": "textures/overworld/concord_fields/stripped_hearthoak_wood"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/stripped_hearthoak_wood"
 		},
 		"tall_fieldgrass": {
-			"textures": "textures/overworld/concord_fields/tall_fieldgrass"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/tall_fieldgrass"
 		},
 		"wayfarer_wheat": {
-			"textures": "textures/overworld/concord_fields/wayfarer_wheat"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/wayfarer_wheat"
 		},
 		"wayfarer_wheat_v2": {
-			"textures": "textures/overworld/concord_fields/wayfarer_wheat_v2"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/wayfarer_wheat_v2"
 		},
 		"wayside_shrub": {
-			"textures": "textures/overworld/concord_fields/wayside_shrub"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/wayside_shrub"
 		},
 		"worn_concord_stonebricks": {
-			"textures": "textures/overworld/concord_fields/worn_concord_stonebricks"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/worn_concord_stonebricks"
 		},
 		"concord_gravel": {
-			"textures": "textures/overworld/concord_fields/concord_gravel"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/concord_gravel"
 		},
 		"hearthoak_stairs": {
-			"textures": "textures/overworld/concord_fields/hearthoak_stairs"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hearthoak_stairs"
 		},
 		"mossy_hearthoak_shingles_stairs": {
-			"textures": "textures/overworld/concord_fields/mossy_hearthoak_shingles_stairs"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/mossy_hearthoak_shingles_stairs"
 		},
 		"weatherd_hearthoak_shingles_stairs": {
-			"textures": "textures/overworld/concord_fields/weatherd_hearthoak_shingles_stairs"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/weatherd_hearthoak_shingles_stairs"
 		},
 		"broken_hearthoak_shingles_stairs": {
-			"textures": "textures/overworld/concord_fields/broken_hearthoak_shingles_stairs"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/broken_hearthoak_shingles_stairs"
 		},
 		"hearthoak_shingles_stairs": {
-			"textures": "textures/overworld/concord_fields/hearthoak_shingles_stairs"
+			"textures": "textures/blocks/biomes/overworld/concord_fields/hearthoak_shingles_stairs"
 		},
+		// First Draft Textures
 		"blank_blossom": {
-			"textures" : "textures/under_archive/first_draft/blank_blossom"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/blank_blossom"
 		},
 		"blank_foundation":{
-			"textures" : "textures/under_archive/first_draft/blank_foundation"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/blank_foundation"
 		},
 		"draftgrass":{
-			"textures" : "textures/under_archive/first_draft/draftgrass"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/draftgrass"
 		},
 		"draftsoil":{
-			"textures" : "textures/under_archive/first_draft/draftsoil"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/draftsoil"
 		},
 		"draft_stone":{
-			"textures" : "textures/under_archive/first_draft/draft_stone"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/draft_stone"
 		},
 		"inkbud":{
-			"textures" : "textures/under_archive/first_draft/inkbud"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/inkbud"
 		},
 		"memory_soil":{
-			"textures" : "textures/under_archive/first_draft/memory_soil"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/memory_soil"
 		},
 		"paper_leaf":{
-			"textures" : "textures/under_archive/first_draft/paper_leaf"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/paper_leaf"
 		},
 		"parchment_reed":{
-			"textures" : "textures/under_archive/first_draft/parchment_reed"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/parchment_reed"
 		},
 		"parchment_turf":{
-			"textures" : "textures/under_archive/first_draft/parchment_turf"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/parchment_turf"
 		},
 		"quill_grass":{
-			"textures" : "textures/under_archive/first_draft/quill_grass"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/quill_grass"
 		},
 		"rough_draftstone":{
-			"textures" : "textures/under_archive/first_draft/rough_draftstone"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/rough_draftstone"
 		},
 		"scriptbark_log":{
-			"textures" : "textures/under_archive/first_draft/scriptbark_log"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/scriptbark_log"
 		},
 		"scriptbark_planks":{
-			"textures" : "textures/under_archive/first_draft/scriptbark_planks"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/scriptbark_planks"
 		},
 		"paper_leaf_sapling":{
-			"textures" : "textures/under_archive/first_draft/paper_leaf_sapling"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/paper_leaf_sapling"
 		},
 		"scriptbark_wood":{
-			"textures" : "textures/under_archive/first_draft/scriptbark_wood"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/scriptbark_wood"
 		},
 		"stripped_scriptbark_log":{
-			"textures" : "textures/under_archive/first_draft/stripped_scriptbark_log"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/stripped_scriptbark_log"
 		},
 		"stripped_scriptbark_wood":{
-			"textures" : "textures/under_archive/first_draft/stripped_scriptbark_wood"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/stripped_scriptbark_wood"
 		},
 		"tall_quill_grass":{
-			"textures" : "textures/under_archive/first_draft/tall_quill_grass"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/tall_quill_grass"
 		},
 		"unifinished_draftstone":{
-			"textures" : "textures/under_archive/first_draft/unfinished_draftstone"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/unfinished_draftstone"
 		},
 		"unwritten_flower":{
-			"textures" : "textures/under_archive/first_draft/unwritten_flower"
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/unwritten_flower"
 		},
+		// Ashbanner Front Textures
+
 		"war_torn_soil":{
-			"textures" : "textures/overworld/ashbanner_front/war_torn_soil"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/war_torn_soil"
 		},
 		"ashbanner_stone":{
-			"textures" : "textures/overworld/ashbanner_front/ashbanner_stone"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_stone"
 		},
 		"ashbanner_grass_top_variations":{
 			"textures": {
 				"variations": [
 					{
-						"path": "textures/overworld/ashbanner_front/ashbanner_grass_top_0",
+						"path": "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_grass_top_0",
 						"weight": 10
 					},
 					{
-						"path": "textures/overworld/ashbanner_front/ashbanner_grass_top_1",
+						"path": "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_grass_top_1",
 						"weight": 10
 					},
 					{
-						"path": "textures/overworld/ashbanner_front/ashbanner_grass_top_2",
+						"path": "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_grass_top_2",
 						"weight": 10
 					},
 					{
-						"path": "textures/overworld/ashbanner_front/ashbanner_grass_top_3",
+						"path": "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_grass_top_3",
 						"weight": 10
 					}
 				]
 			}
 		},
 		"ashbanner_grass_side":{
-			"textures" : "textures/overworld/ashbanner_front/ashbanner_grass_side"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_grass_side"
 		},
 		"ashbanner_grass_bottom":{
-			"textures" : "textures/overworld/ashbanner_front/ashbanner_grass_bottom"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_grass_bottom"
 		},
 		"trench_thistle":{
-			"textures" : "textures/overworld/ashbanner_front/trench_thistle"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/trench_thistle"
 		},
 		"trench_soil":{
-			"textures" : "textures/overworld/ashbanner_front/trench_soil"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/trench_soil"
 		},
 		"burnt_banneroak_leaves":{
-			"textures" : "textures/overworld/ashbanner_front/burnt_banneroak_leaves"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/burnt_banneroak_leaves"
 		},
 		"stripped_banneroak_log":{
-			"textures" : "textures/overworld/ashbanner_front/stripped_banneroak_log"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/stripped_banneroak_log"
 		},
 		"stripped_banneroak_wood":{
-			"textures" : "textures/overworld/ashbanner_front/stripped_banneroak_wood"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/stripped_banneroak_wood"
 		},
 		"banneroak_planks":{
-			"textures" : "textures/overworld/ashbanner_front/banneroak_planks"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/banneroak_planks"
 		},
 		"banneroak_log":{
-			"textures" : "textures/overworld/ashbanner_front/banneroak_log"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/banneroak_log"
 		},
 		"banneroak_wood":{
-			"textures" : "textures/overworld/ashbanner_front/banneroak_wood"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/banneroak_wood"
 		},
 		"battlefield_grass":{
-			"textures" : "textures/overworld/ashbanner_front/battlefield_grass"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/battlefield_grass"
 		},
 		"ironweed":{
-			"textures" : "textures/overworld/ashbanner_front/ironweed"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ironweed"
 		},
 		"scorched_gravel":{
-			"textures" : "textures/overworld/ashbanner_front/scorched_gravel"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/scorched_gravel"
 		},
 		"ashbanner_rubble":{
-			"textures" : "textures/overworld/ashbanner_front/ashbanner_rubble"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_rubble"
 		},
 		"broken_ashbanner_stone":{
-			"textures" : "textures/overworld/ashbanner_front/broken_ashbanner_stone"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/broken_ashbanner_stone"
 		},
 		"ash":{
-			"textures" : "textures/overworld/ashbanner_front/ash"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ash"
 		},
 		"ashroot":{
-			"textures" : "textures/overworld/ashbanner_front/ashroot"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ashroot"
 		},
 		"banneroak_sapling":{
-			"textures" : "textures/overworld/ashbanner_front/banneroak_sapling"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/banneroak_sapling"
 		},
 		"thorn_bush":{
-			"textures" : "textures/overworld/ashbanner_front/thorn_bush"
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/thorn_bush"
 		},
 		"erased_masonry":{
-			"textures" : "textures/under_archive/redacted_deep/erased_masonry"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/erased_masonry"
 		},
 		"redacted_leaves":{
-			"textures" : "textures/under_archive/redacted_deep/redacted_leaves"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/redacted_leaves"
 		},
 		"stripped_nullwood_log":{
-			"textures" : "textures/under_archive/redacted_deep/stripped_nullwood_log"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/stripped_nullwood_log"
 		},
 		"stripped_nullwood":{
-			"textures" : "textures/under_archive/redacted_deep/stripped_nullwood"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/stripped_nullwood"
 		},
 		"nullwood_planks":{
-			"textures" : "textures/under_archive/redacted_deep/nullwood_planks"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/nullwood_planks"
 		},
 		"nullwood_log":{
-			"textures" : "textures/under_archive/redacted_deep/nullwood_log"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/nullwood_log"
 		},
 		"nullwood":{
-			"textures" : "textures/under_archive/redacted_deep/nullwood"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/nullwood"
 		},
 		"nullwood_sapling":{
-			"textures" : "textures/under_archive/redacted_deep/nullwood_sapling"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/nullwood_sapling"
 		},
 		"whisper_stalk":{
-			"textures" : "textures/under_archive/redacted_deep/whisper_stalk"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/whisper_stalk"
 		},
 		"black_reed":{
-			"textures" : "textures/under_archive/redacted_deep/black_reed"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/black_reed"
 		},
 		"censor_fern":{
-			"textures" : "textures/under_archive/redacted_deep/censor_fern"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/censor_fern"
 		},
 		"censor_slate":{
-			"textures" : "textures/under_archive/redacted_deep/censor_slate"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/censor_slate"
 		},
 		"cyan_ghost_grass":{
-			"textures" : "textures/under_archive/redacted_deep/cyan_ghostgrass"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/cyan_ghostgrass"
 		},
 		"ghost_grass":{
-			"textures" : "textures/under_archive/redacted_deep/ghost_grass"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/ghost_grass"
 		},
 		"erased_bloom":{
-			"textures" : "textures/under_archive/redacted_deep/erased_bloom"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/erased_bloom"
 		},
 		"fracture_censor_stone":{
-			"textures" : "textures/under_archive/redacted_deep/fracture_censor_stone"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/fracture_censor_stone"
 		},
 		"ink_clay":{
-			"textures" : "textures/under_archive/redacted_deep/ink_clay"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/ink_clay"
 		},
 		"ink_tendril":{
-			"textures" : "textures/under_archive/redacted_deep/ink_tendril"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/ink_tendril"
 		},
 		"redacted_memory_grass":{
-			"textures" : "textures/under_archive/redacted_deep/redacted_memory_grass"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/redacted_memory_grass"
 		},
 		"redacted_stone":{
-			"textures" : "textures/under_archive/redacted_deep/redacted_stone"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/redacted_stone"
 		},
 		"redaction_moss":{
-			"textures" : "textures/under_archive/redacted_deep/redaction_moss"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/redaction_moss"
 		},
 		"void_archive_stone":{
-			"textures" : "textures/under_archive/redacted_deep/void_archive_stone"
+			"textures" : "textures/blocks/biomes/null/redacted_deep/void_archive_stone"
 		},
 		"bloom_leaves":{
-			"textures" : "textures/blocks/biomes/prismveil_wilds/bloom_leaves"
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/bloom_leaves"
 		},
 		"crystal_leaves":{
-			"textures" : "textures/blocks/biomes/prismveil_wilds/crystal_leaves"
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/crystal_leaves"
 		},
 		"shimmer_leaves":{
-			"textures" : "textures/blocks/biomes/prismveil_wilds/shimmer_leaves"
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/shimmer_leaves"
 		},
 		"riftbark_log":{
-			"textures" : "textures/blocks/biomes/prismveil_wilds/riftbark_log"
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/riftbark_log"
+		},
+		"stripped_riftbark_log":{
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/stripped_riftbark_log"
+		},
+		"riftbark_sapling": {
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/riftbark_sapling"
+		},
+		"veilmoss_soil": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_soil"
+		},
+		"veilmoss_grass_top_variations": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_grass_top_0",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_grass_top_1",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_grass_top_2",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_grass_top_3",
+						"weight": 10
+					}
+				]
+			}
+		},
+		"veilmoss_grass_side": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_grass_side"
+		},
+		// Veilmoss Hollow Textures
+		"veilmoss_log":{
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_log"
+		},
+		"stripped_veilmoss_log":{
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/stripped_veilmoss_log"
+		},
+		"veilmoss_leaves":{
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_leaves"
+		},
+		"cobbled_veilstone":{
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/cobbled_veilstone"
+		},
+		"veilstone":{
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilstone"
+		},
+		"glowing_veilmoss_fern":{
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/glowing_veilmoss_fern"
+		},
+		"veilmoss_fern":{
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_fern"
+		},
+		"hallow_bloom": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/hallow_bloom"
+		},
+		"hanging_hallow_vine": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/hanging_hallow_vine"
+		},
+		"murkcap_mushroom": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/murkcap_mushroom"
+		},
+		"veilmoss_planks": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_planks"
+		},
+		"veilmoss_sapling": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_sapling"
+		},
+		"veilmoss_roots": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_roots"
+		},
+		"veilmoss_short_grass": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_short_grass"
+		},
+		"veilmoss_tall_grass": {
+			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_tall_grass"
+		},
+		// Wisteria Biome
+		"wisteria_leaves_purple": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/wisteria_leaves_purple"
+		},
+		//SAP 
+		"evershade_fern": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/evershade_fern"
+		},
+		"veilbud_sprig": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/veilbud_sprig"
+		},
+		//double
+		"dreamfall_flower": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/dreamfall_flower"
+		},
+		"lunathread_grass": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/lunathread_grass"
+		},
+		//medium
+		"wispdrop_cluster": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/wispdrop_cluster"
+		},
+		"mistpetal_shrub": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/mistpetal_shrub"
+		},
+		// Darkened Thicket Biome
+		
+		//blocks
+		"gloomthorn_leaves": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_leaves"
+		},
+		"gloomthorn_log": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_log"
+		},
+		"gloomthorn_planks": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_planks"
+		},
+		"stripped_gloomthorn_log": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/stripped_gloomthorn_log"
+		},
+		//saplings
+		"gloomthorn_sapling": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_sapling"
+		},
+		"thicket_short_grass": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/thicket_short_grass"
+		},
+		"bloodvein_crystal": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/bloodvein_crystal"
+		},
+		//double 
+		"thorn_reeds": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/thorn_reeds"
+		},
+		//medium
+		"night_bell": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/night_bell"
+		},
+		"thicket_lotus": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/thicket_lotus"
+		},
+		//hanging plants
+		"bloodvein": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/bloodvein"
+		},
+		//luminous_biome
+		"luminous_grass_top_variations": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/biomes/overworld/luminous_glade/luminous_grass_top_0",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/luminous_glade/luminous_grass_top_1",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/luminous_glade/luminous_grass_top_2",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/luminous_glade/luminous_grass_top_3",
+						"weight": 10
+					}
+				]
+			}
+		},
+		"luminous_grass_side": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/luminous_grass_side"
+		},
+		"luminous_dirt": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/luminous_dirt"
+		},
+		"luminous_log": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/luminous_log"
+		},
+		"stripped_luminous_log": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/stripped_luminous_log"
+		},
+		"luminous_planks": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/luminous_planks"
+		},
+		"luminous_leaves": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/luminous_leaves"
+		},
+		//sap 
+		"luminous_sapling": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/luminous_sapling"
+		},
+		"glade_short_grass": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/glade_short_grass"
+		},
+		"glade_bush": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/glade_bush"
+		},
+		"white_fern": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/white_fern"
+		},
+		"lumen_bloom_flower": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/lumen_bloom_flower"
+		},
+		"moon_orchid": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/moon_orchid"
+		},
+		"starflower": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/starflower"
+		},
+		"glowcap": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/glowcap"
+		},
+		"ivory_cap": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/ivory_cap"
+		},
+		//planed double  
+		"glade_tall_grass": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/glade_tall_grass"
+		},
+		//plane medium
+		"luminous_fern": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/luminous_fern"
+		},
+		"glade_lily": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/glade_lily"
+		},
+		"luminous_mushroom": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/luminous_mushroom"
+		},
+		"golden_luminous_mushroom": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/golden_luminous_mushroom"
+		},
+		//plane 2d
+		"lichen_paste": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/lichen_paste"
 		}
 	}
 }

@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.plane_double",
+				"identifier": "geometry.plane_medium",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 6,
@@ -17,30 +17,30 @@
 					"cubes": [
 						{
 							"origin": [-9, 0, 0],
-							"size": [18, 30, 0],
+							"size": [18, 20, 0],
 							"inflate": -0.025,
 							"pivot": [0, 8, 0],
 							"rotation": [0, -45, 0],
 							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [18, 30]},
-								"east": {"uv": [0, 0], "uv_size": [0, 30]},
-								"south": {"uv": [18, 0], "uv_size": [18, 30]},
-								"west": {"uv": [0, 0], "uv_size": [0, 30]},
+								"north": {"uv": [0, 0], "uv_size": [18, 20]},
+								"east": {"uv": [0, 0], "uv_size": [0, 20]},
+								"south": {"uv": [18, 0], "uv_size": [18, 20]},
+								"west": {"uv": [0, 0], "uv_size": [0, 20]},
 								"up": {"uv": [18, 0], "uv_size": [-18, 0]},
 								"down": {"uv": [18, 0], "uv_size": [-18, 0]}
 							}
 						},
 						{
 							"origin": [0, 0, -9],
-							"size": [0, 30, 18],
+							"size": [0, 20, 18],
 							"inflate": -0.025,
 							"pivot": [0, 8, 0],
 							"rotation": [0, -45, 0],
 							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [0, 30]},
-								"east": {"uv": [0, 30], "uv_size": [18, 30]},
-								"south": {"uv": [0, 0], "uv_size": [0, 30]},
-								"west": {"uv": [18, 30], "uv_size": [18, 30]},
+								"north": {"uv": [0, 0], "uv_size": [0, 20]},
+								"east": {"uv": [0, 20], "uv_size": [18, 20]},
+								"south": {"uv": [0, 0], "uv_size": [0, 20]},
+								"west": {"uv": [18, 20], "uv_size": [18, 20]},
 								"up": {"uv": [0, 18], "uv_size": [0, -18]},
 								"down": {"uv": [0, 18], "uv_size": [0, -18]}
 							}

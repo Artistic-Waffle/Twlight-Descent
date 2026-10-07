@@ -2,11 +2,14 @@
 	"format_version": "1.26.3",
 	"minecraft:block": {
 		"description": {
-			"identifier": "td:wisteria_leaves"
+			"identifier": "td:wisteria_leaves",
+			"menu_category": {
+				"category": "construction"
+			}
 		},
 		"components": {
 			"minecraft:geometry": {
-				"identifier": "geometry.unit_cube"
+				"identifier": "minecraft:geometry.full_block"
 			},
 			"minecraft:collision_box": {
 				"origin": [-8, 0, -8],
