@@ -1,0 +1,67 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:luminous_grass_block",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "luminous_grass_top_variations",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "luminous_dirt",
+                    "render_method": "opaque"
+                },
+                "north": {
+                    "texture": "luminous_grass_side",
+                    "render_method": "opaque"
+                },
+                "south": {
+                    "texture": "luminous_grass_side",
+                    "render_method": "opaque"
+                },
+                "east": {
+                    "texture": "luminous_grass_side",
+                    "render_method": "opaque"
+                },
+                "west": {
+                    "texture": "luminous_grass_side",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:display_name": "Luminous Grass Block"
+        }
+    }
+}

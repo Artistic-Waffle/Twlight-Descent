@@ -98,7 +98,7 @@
 			"textures":"textures/blocks/decor/kitchen/acacia_counter"
 		},
 		"blackstone_altar":{
-			"textures": "textures/blocks/blackstone_altar"
+			"textures": "textures/blocks/wip/blackstone_altar"
 		},
 		"ethereal_verdure_side":{
 			"textures": "textures/blocks/biomes/enigma_grove/ethereal_verdure_side"
@@ -152,7 +152,7 @@
 			"textures": "textures/blocks/decor/tables/stripped_pale_table"
 		},
 		"debug_block":{
-			"textures": "textures/blocks/debug_block"
+			"textures": "textures/blocks/wip/debug_block"
 		},
 		"chandelier":{
 			"textures":"textures/blocks/decor/chandelier"
@@ -164,7 +164,7 @@
 			"textures":"textures/blocks/decor/wine_crate"
 		},
 		"statue":{
-			"textures":"textures/blocks/statue"
+			"textures":"textures/blocks/wip/statue"
 		},
 		"shelf":{
 			"textures":"textures/blocks/decor/shelf"
@@ -260,16 +260,16 @@
 			"textures": "textures/blocks/decor/chairs/pale_chair"
 		},
 		"wisteria_leaves":{
-			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_leaves"
+			"textures": "textures/blocks/unused/wisteria_leaves"
 		},
 		"unknown_stone":{
-			"textures": "textures/blocks/biomes/overworld/wisteria/unknown_stone"
+			"textures": "textures/blocks/unused/unknown_stone"
 		},
 		"unknown_grass_block_side":{
-			"textures": "textures/blocks/biomes/overworld/wisteria/unknown_grass_block_side"
+			"textures": "textures/blocks/unused/unknown_grass_block_side"
 		},
 		"unknown_grass_block_top":{
-			"textures": "textures/blocks/biomes/overworld/wisteria/unknown_grass_block_top"
+			"textures": "textures/blocks/unused/unknown_grass_block_top"
 		},
 		"wisteria_sapling":{
 			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_sapling"
@@ -281,7 +281,7 @@
 			"textures": "textures/blocks/biomes/overworld/wisteria/stripped_wisteria_log"
 		},
 		"wisteria_log_top":{
-			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_log_top"
+			"textures": "textures/blocks/unused/wisteria_log_top"
 		},
 		"wisteria_planks":{
 			"textures": "textures/blocks/biomes/overworld/wisteria/wisteria_planks"
@@ -478,11 +478,8 @@
 		"gleamstone":{
 			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/gleamstone"
 		},
-		"veilmoss":{
-			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/veilmoss"
-		},
 		"crystal_bloom_leaves":{
-			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystal_bloom_leaves"
+			"textures": "textures/blocks/unused/crystal_bloom_leaves"
 		},
 		"prismsprig":{
 			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prismsprig"
@@ -521,7 +518,7 @@
 			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/glade_fern"
 		},
 		"prism_grass_v2":{
-			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_v2"
+			"textures": "textures/blocks/unused/prism_grass_v2"
 		},
 		"spectral_bloomstone":{
 			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/spectral_bloomstone"
@@ -533,10 +530,10 @@
 			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/cobbled_gleamstone_v2"
 		},
 		"crystal_bloom_leaves_v2":{
-			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystal_bloom_leaves_v2"
+			"textures": "textures/blocks/unused/crystal_bloom_leaves_v2"
 		},
 		"crystal_bloom_leaves_pink":{
-			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/crystal_bloom_leaves_pink"
+			"textures": "textures/blocks/unused/crystal_bloom_leaves_pink"
 		},
 		"aurel_prismbloom":{
 			"textures": "textures/blocks/biomes/overworld/prismveil_wilds/aurel_prismbloom"
@@ -763,8 +760,30 @@
 		"blank_foundation":{
 			"textures" : "textures/blocks/biomes/under_archive/first_draft/blank_foundation"
 		},
-		"draftgrass":{
-			"textures" : "textures/blocks/biomes/under_archive/first_draft/draftgrass"
+		"draftgrass_top_variations": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/biomes/under_archive/first_draft/draftgrass_top_0",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/under_archive/first_draft/draftgrass_top_1",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/under_archive/first_draft/draftgrass_top_2",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/under_archive/first_draft/draftgrass_top_3",
+						"weight": 10
+					}
+				]
+			}
+		},
+		"draftgrass_side": {
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/draftgrass_side"
 		},
 		"draftsoil":{
 			"textures" : "textures/blocks/biomes/under_archive/first_draft/draftsoil"
@@ -784,8 +803,30 @@
 		"parchment_reed":{
 			"textures" : "textures/blocks/biomes/under_archive/first_draft/parchment_reed"
 		},
-		"parchment_turf":{
-			"textures" : "textures/blocks/biomes/under_archive/first_draft/parchment_turf"
+		"parchment_turf_top_variations": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/biomes/under_archive/first_draft/parchment_turf_top_0",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/under_archive/first_draft/parchment_turf_top_1",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/under_archive/first_draft/parchment_turf_top_2",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/under_archive/first_draft/parchment_turf_top_3",
+						"weight": 10
+					}
+				]
+			}
+		},
+		"parchment_turf_side": {
+			"textures" : "textures/blocks/biomes/under_archive/first_draft/parchment_turf_side"
 		},
 		"quill_grass":{
 			"textures" : "textures/blocks/biomes/under_archive/first_draft/quill_grass"
@@ -850,6 +891,7 @@
 				]
 			}
 		},
+		
 		"ashbanner_grass_side":{
 			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_grass_side"
 		},
@@ -971,16 +1013,19 @@
 			"textures" : "textures/blocks/biomes/null/redacted_deep/redaction_moss"
 		},
 		"void_archive_stone":{
-			"textures" : "textures/blocks/biomes/null/redacted_deep/void_archive_stone"
+				"textures" : "textures/blocks/biomes/null/redacted_deep/void_archive_stone"
 		},
 		"bloom_leaves":{
 			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/bloom_leaves"
 		},
-		"crystal_leaves":{
-			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/crystal_leaves"
-		},
 		"shimmer_leaves":{
 			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/shimmer_leaves"
+		},
+		"shimmer_leaves_blue":{
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/shimmer_leaves_blue"
+		},
+		"shimmer_leaves_pink":{
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/shimmer_leaves_pink"
 		},
 		"riftbark_log":{
 			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/riftbark_log"
@@ -1066,8 +1111,14 @@
 			"textures" : "textures/blocks/biomes/overworld/veilmoss_hollow/veilmoss_tall_grass"
 		},
 		// Wisteria Biome
-		"wisteria_leaves_purple": {
-			"textures" : "textures/blocks/biomes/overworld/wisteria/wisteria_leaves_purple"
+		"wisteria_leaves_pink": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/wisteria_leaves_pink"
+		},
+		"wisteria_leaves_blue": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/wisteria_leaves_blue"
+		},
+		"wisteria_leaves_silver": {
+			"textures" : "textures/blocks/biomes/overworld/wisteria/wisteria_leaves_silver"
 		},
 		//SAP 
 		"evershade_fern": {
@@ -1093,6 +1144,34 @@
 		// Darkened Thicket Biome
 		
 		//blocks
+		"darkened_grass_top_variations": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/biomes/overworld/darkened_thicket/darkened_grass_top_0",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/darkened_thicket/darkened_grass_top_1",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/darkened_thicket/darkened_grass_top_2",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/darkened_thicket/darkened_grass_top_3",
+						"weight": 10
+					}
+				]
+			}
+		},
+		"darkened_grass_side": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/darkened_grass_side"
+		},
+		"darkened_dirt": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/darkened_dirt"
+		},
 		"gloomthorn_leaves": {
 			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_leaves"
 		},
@@ -1104,6 +1183,9 @@
 		},
 		"stripped_gloomthorn_log": {
 			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/stripped_gloomthorn_log"
+		},
+		"darkened_stone": {
+			"textures" : "textures/blocks/biomes/overworld/darkened_thicket/darkened_stone"
 		},
 		//saplings
 		"gloomthorn_sapling": {
@@ -1219,6 +1301,131 @@
 		//plane 2d
 		"lichen_paste": {
 			"textures" : "textures/blocks/biomes/overworld/luminous_glade/lichen_paste"
+		},
+		//Umbral Marsh Biome
+		//blocks & leaves
+		"marsh_grass_top_variations": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/biomes/overworld/umbral_marsh/marsh_grass_top_0",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/umbral_marsh/marsh_grass_top_1",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/umbral_marsh/marsh_grass_top_2",
+						"weight": 10
+					},
+					{
+						"path": "textures/blocks/biomes/overworld/umbral_marsh/marsh_grass_top_3",
+						"weight": 10
+					}
+				]
+			}
+		},
+		"marsh_grass_side": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/marsh_grass_side"
+		},
+		"marsh_dirt": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/marsh_dirt"
+		},
+		"mirewood_leaves": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/mirewood_leaves"
+		},
+		"mirewood_log": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/mirewood_log"
+		},
+		"mirewood_planks": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/mirewood_planks"
+		},
+		"stripped_mirewood_log": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/stripped_mirewood_log"
+		},
+		// sapling model
+		"mirewood_sapling": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/mirewood_sapling"
+		},
+		"marsh_short_grass": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/marsh_short_grass"
+		},
+		"bog_bush": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/bog_bush"
+		},
+		"sadge": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/sadge"
+		},
+		"ghost_lotus": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/ghost_lotus"
+		},
+		"ether_orchid": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/ether_orchid"
+		},
+		"toxic_fungus": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/toxic_fungus"
+		},
+		"mire_cap": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/mire_cap"
+		},
+		//plane double 
+		"marsh_tall_grass": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/marsh_tall_grass"
+		},
+		"cattails": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/cattails"
+		},
+		//plane medium
+		"swamp_fern": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/swamp_fern"
+		},
+		"bog_bloom": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/bog_bloom"
+		},
+		"swamp_lily": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/swamp_lily"
+		},
+		"rot_petal": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/rot_petal"
+		},
+		"spore_cluster": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/spore_cluster"
+		},
+		"bracket_fungus": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/bracket_fungus"
+		},
+		"marsh_crystal": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/marsh_crystal"
+		},
+		//plane 2d model
+		"dripping_fungus": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/dripping_fungus"
+		},
+		"hanging_moss": {
+			"textures" : "textures/blocks/biomes/overworld/umbral_marsh/hanging_moss"
+		},
+		//luminous 2d plane
+		"hanging_vine": {
+			"textures" : "textures/blocks/biomes/overworld/luminous_glade/hanging_vine"
+		},
+		// ashbanner front plane medium
+		"ember_bud": {
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ember_bud"
+		},
+		// ashbanner sapling model
+		"ember_shroom": {
+			"textures" : "textures/blocks/biomes/overworld/ashbanner_front/ember_shroom"
+		},
+		// prismeveil sapling model
+		"crystal_shroom": {
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/crystal_shroom"
+		},
+		"shadow_fern": {
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/shadow_fern"
+		},
+		"silver_fern": {
+			"textures" : "textures/blocks/biomes/overworld/prismveil_wilds/silver_fern"
 		}
 	}
 }

@@ -9,10 +9,11 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "wisteria_sapling",
-					"render_method": "alpha_test"
+					"render_method": "alpha_test_single_sided",
+					"face_dimming": false
 				}
 			},
-			"minecraft:geometry": "geometry.wisteria_sapling",
+			"minecraft:geometry": "geometry.sapling",
 			"minecraft:collision_box": {
 				"origin": [-6, 0, -6],
 				"size": [12, 13, 12]

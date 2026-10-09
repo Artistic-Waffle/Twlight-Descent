@@ -1,65 +1,59 @@
 {
-    "format_version": "1.26.3",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "td:parchment_turf",
+            "identifier": "td:parchment_turf_block",
             "menu_category": {
                 "category": "construction"
-            },
-            "traits": {
-                "minecraft:placement_direction": {
-                    "enabled_states": [ "minecraft:cardinal_direction"],
-                    "y_rotation_offset": 180
-                }
             }
         },
-            "permutations": [
-              
-              {
-                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
-                "components": {
-                  "minecraft:transformation": { "rotation": [0, 0, 0] }
-                }
-              },
-              {
-                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
-                "components": {
-                  "minecraft:transformation": { "rotation": [0, 90, 0] }
-                }
-              },
-              {
-                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
-                "components": {
-                  "minecraft:transformation": { "rotation": [0, 180, 0] }
-                }
-              },
-              {
-                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
-                "components": {
-                  "minecraft:transformation": { "rotation": [0, -90, 0] }
-                }
-              }
-            ],
-        
         "components": {
             "minecraft:material_instances": {
-                "*": {
-                    "texture": "parchment_turf",
+                "up": {
+                    "texture": "parchment_turf_top_variations",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "draftsoil",
+                    "render_method": "opaque"
+                },
+                "north": {
+                    "texture": "parchment_turf_side",
+                    "render_method": "opaque"
+                },
+                "south": {
+                    "texture": "parchment_turf_side",
+                    "render_method": "opaque"
+                },
+                "east": {
+                    "texture": "parchment_turf_side",
+                    "render_method": "opaque"
+                },
+                "west": {
+                    "texture": "parchment_turf_side",
                     "render_method": "opaque"
                 }
             },
             "minecraft:geometry": {
-                "identifier": "geometry.block"
+                "identifier": "minecraft:geometry.full_block"
             },
             "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
             },
             "minecraft:selection_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
-            },
-            "minecraft:display_name": "Parchment Turf"
+                "origin": [-8, 0,-8],
+                "size": [ 16,16,16 ]
+              },
+            "minecraft:display_name": "Parchment Turf Block"
         }
     }
 }
