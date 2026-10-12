@@ -1,0 +1,43 @@
+Created behavior files:
+
+
+Removed terrain_texture keys:
+wisteria_leaves
+unknown_stone
+unknown_grass_block_side
+unknown_grass_block_top
+wisteria_log_top
+crystal_bloom_leaves
+prism_grass_v2
+crystal_bloom_leaves_v2
+crystal_bloom_leaves_pink
+bloom_leaves
+
+Added terrain_texture keys:
+redacted_memory_soil
+broken_hearthoak_shingles
+hearthoak_shingles
+mossy_hearthoak_shingles
+weatherd_hearthoak_shingles
+gloomthorn_door_bottom
+gloomthorn_door_top
+crystal_bloom_sapling
+hanging_crystals_cyan_0
+hanging_crystals_cyan_1
+hanging_crystals_cyan_2
+hanging_crystals_pedals_0
+hanging_crystals_pedals_1
+hanging_crystals_pedals_2
+hanging_crystals_pink_0
+hanging_crystals_pink_1
+hanging_crystals_pink_2
+marsh_capsule
+
+Exact duplicate PNG groups:
+RP/textures/blocks/biomes/overworld/ashbanner_front/ashbanner_grass_bottom.png | RP/textures/blocks/biomes/overworld/ashbanner_front/trench_soil.png
+
+RP/textures/blocks/biomes/overworld/darkened_thicket/darkened_grass_top_3.png | RP/textures/blocks/biomes/overworld/darkened_thicket/image.png
+
+RP/textures/blocks/biomes/overworld/prismveil_wilds/shardiron_ore.png | RP/textures/blocks/biomes/overworld/prismveil_wilds/shardiron_ore_v1.png | RP/textures/blocks/biomes/overworld/prismveil_wilds/veilrite_v1.png
+
+RP/textures/blocks/decor/chairs/spurce_chair_v2.png | RP/textures/blocks/wip/spruce_chair_large.png
