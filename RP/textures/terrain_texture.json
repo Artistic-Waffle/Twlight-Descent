@@ -539,6 +539,21 @@
 		"war_torn_soil": {
 		    "textures": "textures/blocks/biomes/overworld/ashbanner_front/war_torn_soil"
 		},
+		"shattermoor_short_grass": {
+		    "textures": "textures/blocks/biomes/overworld/ashbanner_front/shattermoor_short_grass"
+		},
+		"banner_cloth": {
+		    "textures": "textures/blocks/biomes/overworld/ashbanner_front/banner_cloth"
+		},
+		"ember_vine": {
+		    "textures": "textures/blocks/biomes/overworld/ashbanner_front/ember_vine"
+		},
+		"war_blossom": {
+		    "textures": "textures/blocks/biomes/overworld/ashbanner_front/war_blossom"
+		},
+		"ashbanner_dirt": {
+		    "textures": "textures/blocks/biomes/overworld/ashbanner_front/ashbanner_dirt"
+		},
 
 		// ===== Biome - Overworld / Concord Fields =====
 		"broken_hearthoak_shingles": {
@@ -1390,8 +1405,111 @@
 		"icicle_root": {
 		    "textures": "textures/blocks/biomes/overworld/frostveil_peaks/icicle_root"
 		},
+		"snowbound_tiles": {
+		    "textures": "textures/blocks/biomes/overworld/frostveil_peaks/snowbound_tiles"
+		},
+		"chisseled_frost_tile": {
+		    "textures": "textures/blocks/biomes/overworld/frostveil_peaks/chisseled_frost_tile"
+		},
+		"cracked_frosted_bricks": {
+		    "textures": "textures/blocks/biomes/overworld/frostveil_peaks/cracked_frosted_bricks"
+		},
+		"glacier_cobblestone": {
+		    "textures": "textures/blocks/biomes/overworld/frostveil_peaks/glacier_cobblestone"
+		},
+		// ===== Biome - Overworld / Sunken Vake =====
+
+		"algae_block":{
+			"textures": "textures/blocks/biomes/overworld/sunken_vale/algae_block"
+		},
+        "blue_reed_bloom": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/blue_reed_bloom"
+        },
+        "drowned_bellflower": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/drowned_bellflower"
+        },
+        "drowned_lantern_stone": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/drowned_lantern_stone"
+        },
+        "miststone": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/miststone"
+        },
+        "moontear_lily_2": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/moontear_lily"
+        },
+        "mossy_plaster": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/mossy_plaster"
+        },
+        "river_pearl_block": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/river_pearl_block"
+        },
+        "river_reeds": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/river_reeds"
+        },
+        "stripped_tidewillow_log": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/stripped_tidewillow_log"
+        },
+        "sunken_stone": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/sunken_stone"
+        },
+        "tide_glass": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/tide_glass"
+        },
+        "tidewillow_leaves": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/tidewillow_leaves"
+        },
+        "tidewillow_log": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/tidewillow_log"
+        },
+        "tidewillow_planks": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/tidewillow_planks"
+        },
+        "tidewillow_sapling": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/tidewillow_sapling"
+        },
+        "vale_dirt": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/vale_dirt"
+        },
+        "vale_grass_side": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/vale_grass_side"
+        },
+        "vale_grass_top_variations": {
+           "textures": {
+		        "variations": [
+		            {
+		                "path": "textures/blocks/biomes/overworld/sunken_vale/vale_grass_top_0",
+		                "weight": 10
+		            },
+		            {
+		                "path": "textures/blocks/biomes/overworld/sunken_vale/vale_grass_top_1",
+		                "weight": 10
+		            },
+		            {
+		                "path": "textures/blocks/biomes/overworld/sunken_vale/vale_grass_top_2",
+		                "weight": 10
+		            },
+		            {
+		                "path": "textures/blocks/biomes/overworld/sunken_vale/vale_grass_top_3",
+		                "weight": 10
+		            }
+		        ]
+		    }
+		},
+        "vale_short_grass": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/vale_short_grass"
+        },
+        "vale_tall_grass": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/vale_tall_grass"
+        },
+        "water_starlily": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/water_starlily"
+        },
+        "worn_plaster": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/worn_plaster"
+        },
 
 		// ===== Biome - Twilight =====
+
 		"twilight_gloom": {
 		    "textures": "textures/blocks/biomes/twilight/twilight_gloom"
 		},
