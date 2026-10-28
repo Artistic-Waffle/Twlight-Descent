@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "td:lakespur",
@@ -18,10 +18,7 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane_medium"
             },
-             "minecraft:collision_box": {
-                "origin": [ -8, 0, -8 ], 
-                "size": [ 16, 16, 16 ]
-            },
+             "minecraft:collision_box": false,
             "minecraft:selection_box": {
                 "origin": [ -8, 0, -8 ],
                 "size": [ 16, 16, 16 ]

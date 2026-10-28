@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:icebloom_flower",
@@ -18,15 +18,25 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane_medium"
             },
-             "minecraft:collision_box": {
-                "origin": [ -8, 0, -8 ], 
-                "size": [ 16, 16, 16 ]
-            },
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [ -8, 0, -8 ],
-                "size": [ 16, 16, 16 ]
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
             },
-            "minecraft:display_name": "Icebloom Flower"
+            "minecraft:display_name": "Icebloom Flower",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_frostveil_peaks",
+                "td:flower"
+            ]
         }
     }
 }

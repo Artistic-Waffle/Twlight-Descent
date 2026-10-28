@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:rose_sapling",
@@ -18,15 +18,25 @@
             "minecraft:geometry": {
                 "identifier": "geometry.sapling"
             },
-             "minecraft:collision_box": {
-                "origin": [ -8, 0, -8 ], 
-                "size": [ 16, 16, 16 ]
-            },
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [ -8, 0, -8 ],
-                "size": [ 16, 16, 16 ]
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
             },
-            "minecraft:display_name": "Rose Sapling"
+            "minecraft:display_name": "Rose Sapling",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_roseglass_strand",
+                "td:sapling"
+            ]
         }
     }
 }

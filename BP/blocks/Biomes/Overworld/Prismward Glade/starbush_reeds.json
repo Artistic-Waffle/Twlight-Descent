@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:starbush_reeds",
@@ -18,20 +18,37 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane_double"
             },
-           "minecraft:collision_box": false,
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [-6,0,-6],
-                "size": [12,11,12]
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    11,
+                    12
+                ]
             },
             "minecraft:placement_filter": {
                 "conditions": [
                     {
-                        "allowed_faces": ["up"],
-                        "block_filter": ["td:prism_grass"]
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "td:prism_grass"
+                        ]
                     }
                 ]
             },
-            "minecraft:display_name": "Starbush Reeds"
+            "minecraft:display_name": "Starbush Reeds",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_prismward_glade",
+                "td:reed"
+            ]
         }
     }
 }

@@ -1,28 +1,37 @@
 {
-	"format_version": "1.26.3",
-	"minecraft:block": {
-		"description": {
-			"identifier": "td:wisteria_sapling"
-
-		},
-		"components": {
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "wisteria_sapling",
-					"render_method": "alpha_test_single_sided",
-					"face_dimming": false
-				}
-			},
-			"minecraft:geometry": "geometry.sapling",
-			"minecraft:collision_box": {
-				"origin": [-6, 0, -6],
-				"size": [12, 13, 12]
-			},
-			"minecraft:selection_box": {
-				"origin": [-6, 0, -6],
-				"size": [12, 13, 12]
-			},
-			"minecraft:display_name": "Wisteria Sapling"
-		}
-	}
+    "format_version": "1.26.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:wisteria_sapling"
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wisteria_sapling",
+                    "render_method": "alpha_test_single_sided",
+                    "face_dimming": false
+                }
+            },
+            "minecraft:geometry": "geometry.sapling",
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    13,
+                    12
+                ]
+            },
+            "minecraft:display_name": "Wisteria Sapling",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_wisteria",
+                "td:sapling"
+            ]
+        }
+    }
 }

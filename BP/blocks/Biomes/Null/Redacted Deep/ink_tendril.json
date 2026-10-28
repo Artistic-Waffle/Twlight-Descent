@@ -1,12 +1,12 @@
 {
-    "format_version": "1.26.3",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:ink_tendril",
             "menu_category": {
                 "category": "construction"
             }
-          },
+        },
         "components": {
             "minecraft:material_instances": {
                 "*": {
@@ -17,15 +17,25 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane"
             },
-            "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
-            },
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
             },
-            "minecraft:display_name": "Ink Tendril"
+            "minecraft:display_name": "Ink Tendril",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_redacted_deep",
+                "td:vine"
+            ]
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.3",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:blank_blossom",
@@ -18,15 +18,25 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane_double"
             },
-            "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
-            },
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
             },
-            "minecraft:display_name": "Blank Blossom"
+            "minecraft:display_name": "Blank Blossom",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_scribewind_downs",
+                "td:flower"
+            ]
         }
     }
 }

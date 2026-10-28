@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:ember_vine",
@@ -39,7 +39,12 @@
                     2
                 ]
             },
-            "minecraft:display_name": "Ember Vine"
+            "minecraft:display_name": "Ember Vine",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_emberglass_expanse",
+                "td:vine"
+            ]
         },
         "permutations": [
             {

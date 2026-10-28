@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.3",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:inkbud",
@@ -18,15 +18,25 @@
             "minecraft:geometry": {
                 "identifier": "geometry.sapling"
             },
-            "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
-            },
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [-8,0,-8],
-                "size": [16,16,16]
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
             },
-            "minecraft:display_name": "Inkbud"
+            "minecraft:display_name": "Inkbud",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_scribewind_downs",
+                "td:flower"
+            ]
         }
     }
 }

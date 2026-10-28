@@ -1,45 +1,70 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:icicle_root",
             "menu_category": {
                 "category": "construction"
             },
-             "traits": {
+            "traits": {
                 "minecraft:placement_direction": {
-                    "enabled_states": [ "minecraft:cardinal_direction"],
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
                     "y_rotation_offset": 180
                 }
             }
         },
-            "permutations": [
-              
-              {
+        "permutations": [
+            {
                 "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
                 "components": {
-                  "minecraft:transformation": { "rotation": [0, 180, 0] }
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
                 }
-              },
-              {
+            },
+            {
                 "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
                 "components": {
-                  "minecraft:transformation": { "rotation": [0, -90, 0] }
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
                 }
-              },
-              {
+            },
+            {
                 "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
                 "components": {
-                  "minecraft:transformation": { "rotation": [0, 0, 0] }
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
                 }
-              },
-              {
+            },
+            {
                 "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
                 "components": {
-                  "minecraft:transformation": { "rotation": [0, 90, 0] }
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
                 }
-              }
-            ],
+            }
+        ],
         "components": {
             "minecraft:material_instances": {
                 "*": {
@@ -64,7 +89,12 @@
                     2
                 ]
             },
-            "minecraft:display_name": "Icicle Root"
+            "minecraft:display_name": "Icicle Root",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_frostveil_peaks",
+                "td:roots"
+            ]
         }
     }
 }

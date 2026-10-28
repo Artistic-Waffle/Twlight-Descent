@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.20",
     "minecraft:block": {
         "description": {
             "identifier": "td:petalshard_sprout",
@@ -18,12 +18,25 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane_double"
             },
-           "minecraft:collision_box": false,
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [-6,0,-6],
-                "size": [12,11,12]
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    11,
+                    12
+                ]
             },
-            "minecraft:display_name": "Petalshard Sprout"
+            "minecraft:display_name": "Petalshard Sprout",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_prismward_glade",
+                "td:flower"
+            ]
         }
     }
 }
