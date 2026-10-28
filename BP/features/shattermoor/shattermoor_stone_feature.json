@@ -1,0 +1,20 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "td:shattermoor_stone_feature"
+    },
+
+    "count": 128,
+
+    "replace_rules": [
+      {
+        "places_block": "td:shattermoor_stone",
+
+        "may_replace": [
+          "minecraft:stone"
+        ]
+      }
+    ]
+  }
+}

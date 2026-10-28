@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "td:ashbanner_front"
+      "identifier": "td:shattermoor"
     },
     "components": {
       "minecraft:sky_color": {

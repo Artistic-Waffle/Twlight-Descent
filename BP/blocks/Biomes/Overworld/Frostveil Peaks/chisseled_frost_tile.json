@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:chisseled_frost_tile",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "chisseled_frost_tile",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+             "minecraft:collision_box": {
+                "origin": [ -8, 0, -8 ], 
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:selection_box": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:display_name": "Chisseled Frost Tile"
+        }
+    }
+}

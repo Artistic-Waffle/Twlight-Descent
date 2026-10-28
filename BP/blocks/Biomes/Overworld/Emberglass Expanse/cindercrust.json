@@ -1,0 +1,52 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:cindercrust",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                
+                "up": {
+                    "texture": "cindercrust_top_variations",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "cindercrust_soil",
+                    "render_method": "opaque"
+                },
+                "north": {
+                    "texture": "cindercrust_side",
+                    "render_method": "opaque"
+                },
+                "south": {
+                    "texture": "cindercrust_side",
+                    "render_method": "opaque"
+                },
+                "west": {
+                    "texture": "cindercrust_side",
+                    "render_method": "opaque"
+                },
+                "east": {
+                    "texture": "cindercrust_side",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+             "minecraft:collision_box": {
+                "origin": [ -8, 0, -8 ], 
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:selection_box": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:display_name": "Cindercrust"
+        }
+    }
+}

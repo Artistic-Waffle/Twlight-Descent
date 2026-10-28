@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:old_roadstone_bricks",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "old_roadstone_bricks",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+             "minecraft:collision_box": {
+                "origin": [ -8, 0, -8 ], 
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:selection_box": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:display_name": "Old Roadstone Bricks"
+        }
+    }
+}

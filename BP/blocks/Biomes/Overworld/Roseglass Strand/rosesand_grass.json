@@ -1,0 +1,51 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:rosesand_grass_block",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "rosesand_top_variations",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "rosesand",
+                    "render_method": "opaque"
+                },
+                "north": {
+                    "texture": "rosesand_side",
+                    "render_method": "opaque"
+                },
+                "south": {
+                    "texture": "rosesand_side",
+                    "render_method": "opaque"
+                },
+                "east": {
+                    "texture": "rosesand_side",
+                    "render_method": "opaque"
+                },
+                "west": {
+                    "texture": "rosesand_side",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+             "minecraft:collision_box": {
+                "origin": [ -8, 0, -8 ], 
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:selection_box": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:display_name": "Rosesand Grass Block"
+        }
+    }
+}

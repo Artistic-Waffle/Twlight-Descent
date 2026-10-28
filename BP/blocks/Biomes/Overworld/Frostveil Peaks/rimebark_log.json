@@ -1,0 +1,59 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:rimebark_log",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+        "minecraft:placement_position": {
+            "enabled_states": ["minecraft:block_face"] // Can be used in queries e.g. `q.block_state('minecraft:block_face') == 'north'`
+        }
+    }
+},
+    "permutations": [
+    // X axis
+    {
+        "condition": "q.block_state('minecraft:block_face') == 'west' || q.block_state('minecraft:block_face') == 'east'",
+        "components": {
+            "minecraft:transformation": { "rotation": [0, 0, 90] }
+        }
+    },
+    // Y axis
+    {
+        "condition": "q.block_state('minecraft:block_face') == 'down' || q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+            "minecraft:transformation": { "rotation": [0, 0, 0] }
+        }
+    },
+    // Z axis
+    {
+        "condition": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'south'",
+        "components": {
+            "minecraft:transformation": { "rotation": [90, 0, 0] }
+        }
+    }
+],
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "rimebark_log",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.block"
+            },
+             "minecraft:collision_box": {
+                "origin": [ -8, 0, -8 ], 
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:selection_box": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:display_name": "Rimebark Log"
+        }
+    }
+}

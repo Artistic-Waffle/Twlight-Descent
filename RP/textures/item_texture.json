@@ -19,6 +19,12 @@
 		"wisteria_sapling_placer": {
 			"textures": "textures/items/wisteria_sapling"
 		},
+		// biome items
+
+		"fallen_quill": {
+		    "textures": "textures/items/fallen_quill"
+		},
+
 		// ingots & plates 
 
 		"adamantite_ingot": {
