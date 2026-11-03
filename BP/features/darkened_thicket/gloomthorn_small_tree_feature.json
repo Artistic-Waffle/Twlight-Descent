@@ -1,0 +1,30 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "td:gloomthorn_small_tree_feature"
+    },
+    "structure_name": "td:gloomthorn_small",
+    "adjustment_radius": 2,
+    "facing_direction": "random",
+    "rotate_around_center": true,
+    "ground_level": 0,
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "td:darkened_grass_block",
+          "td:darkened_dirt",
+          "td:thicket_short_grass",
+          "td:night_bell",
+          "td:trench_thistle",
+          "td:thicket_lotus",
+          "td:gloomthorn_leaves"
+        ],
+        "only_check_intersection_for_motion_blocking_blocks": true
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "td:rimetree_medium_feature"
+    },
+    "structure_name": "td:rimetree_medium",
+    "adjustment_radius": 4,
+    "facing_direction": "random",
+    "rotate_around_center": true,
+    "ground_level": 0,
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:snow_layer",
+          "td:frostveil_grass_block",
+          "td:frosted_dirt",
+          "td:frost_short_grass",
+          "td:frost_tall_grass",
+          "td:frosted_fern",
+          "td:frosted_shrub",
+          "td:icebloom_flower",
+          "td:snowbell_flower",
+          "td:frosted_starlily",
+          "td:rimebark_leaves"
+        ],
+        "only_check_intersection_for_motion_blocking_blocks": true
+      }
+    }
+  }
+}

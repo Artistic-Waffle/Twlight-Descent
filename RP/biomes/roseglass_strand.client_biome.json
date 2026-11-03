@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "td:roseglass_strand"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#DEB5C6"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#6CBBC8"
+      }
+    }
+  }
+}

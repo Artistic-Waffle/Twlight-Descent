@@ -38,22 +38,17 @@
                 "identifier": "minecraft:geometry.full_block"
             },
             "minecraft:collision_box": {
-                "origin": [
-                    -8,
-                    0,
-                    -8
-                ],
-                "size": [
-                    16,
-                    16,
-                    16
-                ]
+                "origin": [ -8, 0, -8 ], 
+                "size": [ 16, 16, 16 ]
             },
             "minecraft:selection_box": {
                 "origin": [-8, 0,-8],
                 "size": [ 16,16,16 ]
               },
-            "minecraft:display_name": "Parchment Turf Block"
+            "minecraft:display_name": "Parchment Turf Block",
+            "minecraft:tags": [
+                "minecraft:plant"
+            ]
         }
     }
 }

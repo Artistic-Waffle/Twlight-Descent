@@ -1,0 +1,49 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "td:scribewind_downs"
+    },
+    "components": {
+      "minecraft:climate": {
+        "temperature": 0.62,
+        "downfall": 0.46,
+        "snow_accumulation": [
+          0.0,
+          0.0
+        ]
+      },
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+          "sea_floor_depth": 6,
+          "sea_floor_material": "td:parchment_silt",
+          "foundation_material": "td:draftstone",
+          "mid_material": "td:draftsoil",
+          "top_material": "td:draftgrass_block",
+          "sea_material": "minecraft:water"
+        }
+      },
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+            "targets": [
+              "minecraft:extreme_hills"
+            ],
+            "amount": 0.42,
+            "noise_frequency_scale": 0.026
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "overworld",
+          "no_legacy_worldgen",
+          "hills",
+          "scribewind_downs"
+        ]
+      }
+    }
+  }
+}

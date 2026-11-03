@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "td:umbral_marsh"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#697780"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#344C46",
+        "surface_opacity": 0.86
+      },
+      "minecraft:grass_appearance": {
+        "color": "#53674D"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#59715D"
+      }
+    }
+  }
+}

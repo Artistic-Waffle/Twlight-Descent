@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "td:azure_tufa_springs"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#8CBCC7"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#36B9C8"
+      }
+    }
+  }
+}

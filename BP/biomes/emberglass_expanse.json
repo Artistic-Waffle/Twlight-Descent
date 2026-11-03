@@ -1,0 +1,57 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "td:emberglass_expanse"
+    },
+    "components": {
+      "minecraft:climate": {
+        "temperature": 1.6,
+        "downfall": 0.05,
+        "snow_accumulation": [0.0, 0.0]
+      },
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+          "sea_floor_depth": 6,
+          "sea_floor_material": "td:slagstone",
+          "foundation_material": "td:searstone",
+          "mid_material": "td:cindercrust_soil",
+          "top_material": "td:cindercrust",
+          "sea_material": "minecraft:water"
+        }
+      },
+      
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+            "targets": [
+              "minecraft:mesa"
+            ],
+            "amount": 0.55,
+            "noise_frequency_scale": 0.02
+          },
+          {
+            "dimension": "minecraft:overworld",
+            "targets": [
+              "minecraft:mesa_bryce"
+            ],
+            "amount": 0.50,
+            "noise_frequency_scale": 0.02
+          }
+        ]
+      },
+
+      "minecraft:tags": {
+        "tags": [
+          "overworld",
+          "no_legacy_worldgen",
+          "hot",
+          "dry",
+          "emberglass_expanse"
+        ]
+      }
+    }
+  }
+}

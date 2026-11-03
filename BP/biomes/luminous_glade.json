@@ -1,0 +1,49 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "td:luminous_glade"
+    },
+    "components": {
+      "minecraft:climate": {
+        "temperature": 0.68,
+        "downfall": 0.72,
+        "snow_accumulation": [
+          0.0,
+          0.0
+        ]
+      },
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+          "sea_floor_depth": 6,
+          "sea_floor_material": "td:luminous_dirt",
+          "foundation_material": "minecraft:stone",
+          "mid_material": "td:luminous_dirt",
+          "top_material": "td:luminous_grass_block",
+          "sea_material": "minecraft:water"
+        }
+      },
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+            "targets": [
+              "minecraft:flower_forest"
+            ],
+            "amount": 0.42,
+            "noise_frequency_scale": 0.012
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "overworld",
+          "no_legacy_worldgen",
+          "flower_forest",
+          "luminous_glade"
+        ]
+      }
+    }
+  }
+}

@@ -12,6 +12,7 @@
                 "*": {
                     "texture": "rimebark_leaves",
                     "render_method": "alpha_test_to_opaque",
+                    "ambient_occlusion": 0.7,
                     "face_dimming": false
                 }
             },

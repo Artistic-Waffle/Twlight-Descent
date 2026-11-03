@@ -404,6 +404,12 @@
         "stripped_gloomthorn_log": {
             "textures": "textures/blocks/biomes/overworld/darkened_thicket/stripped_gloomthorn_log"
         },
+        "gloomthorn_log_top": {
+            "textures": "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_log_top"
+        },
+        "gloomthorn_log_side": {
+            "textures": "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_log_side"
+        },
         // -- Foliage & Flowers --
         "thicket_lotus": {
             "textures": "textures/blocks/biomes/overworld/darkened_thicket/thicket_lotus"
@@ -433,6 +439,9 @@
         },
         "trench_thistle": {
             "textures": "textures/blocks/biomes/overworld/darkened_thicket/trench_thistle"
+        },
+        "dark_hanging_moss": {
+            "textures": "textures/blocks/biomes/overworld/darkened_thicket/hanging_moss"
         },
 
         // ======== BIOMES / OVERWORLD / EMBERGLASS EXPANSE ========
@@ -575,7 +584,7 @@
 
         // ======== BIOMES / OVERWORLD / FROSTVEIL PEAKS ========
         // -- Terrain & Ground --
-        "frostveil_dirt": {
+        "frosted_dirt": {
             "textures": "textures/blocks/biomes/overworld/frostveil_peaks/frostveil_dirt"
         },
         "frostveil_grass_side": {

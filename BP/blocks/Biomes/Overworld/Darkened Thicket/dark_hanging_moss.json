@@ -1,0 +1,42 @@
+{
+    "format_version": "1.26.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:dark_hanging_moss",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dark_hanging_moss",
+                    "render_method": "alpha_test",
+                    "face_dimming": false
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.plane_3d",
+                "culling": "td:hanging_cull"
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:liquid_detection": {
+            "detection_rules": [
+                {
+                    "liquid_type": "water",
+                    "can_contain_liquid": true
+                }
+            ]
+        },
+            "minecraft:display_name": "Dark Hanging Moss",
+            "minecraft:tags": [
+                "td:foliage",
+                "td:biome_darkened_thicket"
+            ]
+        }
+    }
+}

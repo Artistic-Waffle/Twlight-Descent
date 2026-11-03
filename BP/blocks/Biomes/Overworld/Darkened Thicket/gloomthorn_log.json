@@ -9,13 +9,21 @@
         },
         "components": {
             "minecraft:material_instances": {
+                "up": {
+                    "texture": "gloomthorn_log_top",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "gloomthorn_log_top",
+                    "render_method": "opaque"
+                },
                 "*": {
-                    "texture": "gloomthorn_log",
+                    "texture": "gloomthorn_log_side",
                     "render_method": "opaque"
                 }
             },
             "minecraft:geometry": {
-                "identifier": "geometry.block"
+                "identifier": "minecraft:geometry.full_block"
             },
              "minecraft:collision_box": {
                 "origin": [ -8, 0, -8 ], 

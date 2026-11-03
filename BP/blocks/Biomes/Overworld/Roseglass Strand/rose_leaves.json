@@ -11,8 +11,7 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "rose_leaves",
-                    "render_method": "alpha_test_to_opaque",
-                    "face_dimming": false
+                    "render_method": "alpha_test_to_opaque"
                 }
             },
             "minecraft:geometry": {

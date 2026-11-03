@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "td:scribewind_downs"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#A9BBD0"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#7CACBC"
+      }
+    }
+  }
+}

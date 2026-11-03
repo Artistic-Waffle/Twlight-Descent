@@ -1,0 +1,22 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "td:gloomthorn_tree_selector_feature"
+    },
+    "features": [
+      [
+        "td:gloomthorn_small_tree_snap_feature",
+        5
+      ],
+      [
+        "td:gloomthorn_mature_tree_snap_feature",
+        4
+      ],
+      [
+        "td:gloomthorn_ancient_tree_snap_feature",
+        1
+      ]
+    ]
+  }
+}

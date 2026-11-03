@@ -6,11 +6,10 @@
     },
     "components": {
       "minecraft:sky_color": {
-        "sky_color": "#6947b8"
+        "sky_color": "#86BAC8"
       },
-
       "minecraft:water_appearance": {
-        "surface_color": "#0cc099"
+        "surface_color": "#3D9C9A"
       }
     }
   }

@@ -1,0 +1,79 @@
+{
+    "format_version": "1.26.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:hanging_crystals_cyan_multi",
+            "menu_category": {
+                "category": "none"
+            },
+            "traits": {
+                "minecraft:multi_block": {
+                    "enabled_states": [
+                        "minecraft:multi_block_part"
+                    ],
+                    "parts": 3,
+                    "direction": "down"
+                }
+            }
+        },
+        "components": {
+            "minecraft:movable": {
+                "movement_type": "popped"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "hanging_crystals_cyan_0",
+                    "render_method": "alpha_test_single_sided",
+                    "face_dimming": false
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.drooping_plane"
+            },
+             "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:placement_filter": {
+                 "conditions": [
+                    {
+                        "allowed_faces": [ "down" ]
+                    }
+                ]
+            },
+            
+            "minecraft:display_name": "Hanging Crystals Petals Cyan"
+        },
+        "permutations": [
+             {
+                "condition": "q.block_state('minecraft:multi_block_part') == 1", // Checks for part 1
+                "components": {
+                    // Visuals for part 1
+                    "minecraft:geometry": "geometry.drooping_plane",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hanging_crystals_cyan_1",
+                            "render_method": "alpha_test_single_sided",
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:multi_block_part') == 2", // Checks for part 2
+                "components": {
+                    // Visuals for part 2
+                    "minecraft:geometry": "geometry.drooping_plane",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hanging_crystals_cyan_2",
+                            "render_method": "alpha_test_single_sided",
+                            "face_dimming": false
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

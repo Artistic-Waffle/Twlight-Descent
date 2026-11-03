@@ -20,17 +20,26 @@
             },
             "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [
-                    -8,
-                    0,
-                    -8
-                ],
-                "size": [
-                    16,
-                    16,
-                    16
-                ]
+                "origin": [ -5, 0, -6 ],
+                "size": [ 10, 15, 12 ]
             },
+            
+            "minecraft:random_offset": {
+            "x": {
+                "range": {
+                "min": -3,
+                "max": 4
+                },
+                "steps": 0
+            },
+            "z": {
+                "range": {
+                "min": -3,
+                "max": 4
+                },
+                "steps": 0
+            }
+        },
             "minecraft:display_name": "Prairie Grass",
             "minecraft:tags": [
                 "td:foliage",

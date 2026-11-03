@@ -1,0 +1,22 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "td:rimetree_selector_feature"
+    },
+    "features": [
+      [
+        "td:rimetree_small_snap_feature",
+        50
+      ],
+      [
+        "td:rimetree_medium_snap_feature",
+        35
+      ],
+      [
+        "td:rimetree_large_snap_feature",
+        15
+      ]
+    ]
+  }
+}

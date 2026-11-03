@@ -1,0 +1,22 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "td:riftbark_tree_color_selector_feature"
+    },
+    "features": [
+      [
+        "td:riftbark_tree_blue_snap_feature",
+        1
+      ],
+      [
+        "td:riftbark_tree_pink_snap_feature",
+        1
+      ],
+      [
+        "td:riftbark_tree_purple_snap_feature",
+        1
+      ]
+    ]
+  }
+}

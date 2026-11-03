@@ -25,7 +25,7 @@
     ],
 
     "may_replace": [
-      "minecraft:air"
+      "minecraft:air" 
     ],
 
     "may_attach_to": {

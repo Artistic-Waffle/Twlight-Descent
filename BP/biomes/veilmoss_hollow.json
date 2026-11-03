@@ -1,0 +1,49 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "td:veilmoss_hollow"
+    },
+    "components": {
+      "minecraft:climate": {
+        "temperature": 0.7,
+        "downfall": 0.83,
+        "snow_accumulation": [
+          0.0,
+          0.0
+        ]
+      },
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+          "sea_floor_depth": 6,
+          "sea_floor_material": "td:veilmoss_soil",
+          "foundation_material": "td:veilstone",
+          "mid_material": "td:veilmoss_soil",
+          "top_material": "td:veilmoss",
+          "sea_material": "minecraft:water"
+        }
+      },
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+            "targets": [
+              "minecraft:birch_forest"
+            ],
+            "amount": 0.38,
+            "noise_frequency_scale": 0.17
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "overworld",
+          "no_legacy_worldgen",
+          "forest",
+          "veilmoss_hollow"
+        ]
+      }
+    }
+  }
+}

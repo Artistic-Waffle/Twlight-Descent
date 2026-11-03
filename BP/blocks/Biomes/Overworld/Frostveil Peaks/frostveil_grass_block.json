@@ -15,7 +15,7 @@
                 },
 
                 "down": {
-                  "texture": "frostveil_dirt",
+                  "texture": "frosted_dirt",
                   "render_method": "opaque"
                 },
 

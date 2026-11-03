@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "td:sunken_vale"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#A6C7D4"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#548F9D"
+      }
+    }
+  }
+}

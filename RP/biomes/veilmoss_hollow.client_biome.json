@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "td:veilmoss_hollow"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#758C99"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#416C70"
+      }
+    }
+  }
+}

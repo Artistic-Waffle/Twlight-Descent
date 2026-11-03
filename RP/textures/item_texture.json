@@ -190,6 +190,18 @@
 		},
 		"aeth_rune": {
 			"textures": "textures/items/veyra/aeth_rune"
+		},
+
+		// Icons 
+
+		"cyan_crystal_petals_icon": {
+			"textures": "textures/items/icons/cyan_crystal_petals_icon"
+		},
+		"pink_crystal_petals_icon": {
+			"textures": "textures/items/icons/pink_crystal_petals_icon"
+		},
+		"crystal_petals_icon": {
+			"textures": "textures/items/icons/crystal_petals_icon"
 		}
 	}
 }

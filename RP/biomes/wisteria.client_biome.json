@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "td:wisteria"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#B4AFDC"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#88B0CC"
+      }
+    }
+  }
+}

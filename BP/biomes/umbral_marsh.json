@@ -1,0 +1,49 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "td:umbral_marsh"
+    },
+    "components": {
+      "minecraft:climate": {
+        "temperature": 0.85,
+        "downfall": 0.9,
+        "snow_accumulation": [
+          0.0,
+          0.0
+        ]
+      },
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+          "sea_floor_depth": 5,
+          "sea_floor_material": "td:marsh_dirt",
+          "foundation_material": "minecraft:stone",
+          "mid_material": "td:marsh_dirt",
+          "top_material": "td:marsh_grass_block",
+          "sea_material": "minecraft:water"
+        }
+      },
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+            "targets": [
+              "minecraft:mangrove_swamp"
+            ],
+            "amount": 0.50,
+            "noise_frequency_scale": 0.025
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "overworld",
+          "no_legacy_worldgen",
+          "swamp",
+          "umbral_marsh"
+        ]
+      }
+    }
+  }
+}

@@ -11,8 +11,8 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "shimmer_leaves_blue",
-                    "render_method": "alpha_test_to_opaque",
-                    "face_dimming": false
+                    "render_method": "alpha_test_to_opaque"
+                    
                 }
             },
             "minecraft:geometry": {

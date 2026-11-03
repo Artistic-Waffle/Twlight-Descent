@@ -17,6 +17,10 @@
       {
         "block": "td:lilac_crystal_cluster",
         "weight": 2
+      },
+      {
+        "block": "td:sunshard_bloom",
+        "weight": 1
       }
     ],
 

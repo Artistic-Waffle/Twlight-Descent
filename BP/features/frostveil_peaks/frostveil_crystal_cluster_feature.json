@@ -1,0 +1,28 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:frostveil_crystal_cluster_feature"
+    },
+    "places_block": [
+      {
+        "block": "td:frost_crystal_cluster",
+        "weight": 1
+      }
+    ],
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "td:frostveil_grass_block",
+        "td:frosted_stone",
+        "td:hoarfrost_block"
+      ]
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}
