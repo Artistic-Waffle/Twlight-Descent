@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "td:veilmoss_hollow_murkcap_patch_feature"
+    },
+    "places_feature": "td:veilmoss_hollow_murkcap_single_feature",
+    "project_input_to_floor": true,
+    "distribution": {
+      "iterations": 7,
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -2,
+          2
+        ]
+      },
+      "y": 0,
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -2,
+          2
+        ]
+      }
+    }
+  }
+}

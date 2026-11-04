@@ -1,0 +1,17 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "td:scribewind_downs_foundation_stone_feature"
+    },
+    "count": 128,
+    "replace_rules": [
+      {
+        "places_block": "td:draftstone",
+        "may_replace": [
+          "minecraft:stone"
+        ]
+      }
+    ]
+  }
+}

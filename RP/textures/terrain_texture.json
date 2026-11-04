@@ -841,8 +841,25 @@
         "lichen_paste": {
             "textures": "textures/blocks/biomes/overworld/luminous_glade/lichen_paste"
         },
-
-        // ======== BIOMES / OVERWORLD / PRISMVEIL WILDS ========
+        "luminous_cap_top": {
+      "textures": "textures/blocks/biomes/overworld/luminous_glade/luminous_cap_top"
+        },
+        "luminous_cap_side": {
+        "textures": "textures/blocks/biomes/overworld/luminous_glade/luminous_cap_side"
+        },
+        "luminous_gills": {
+        "textures": "textures/blocks/biomes/overworld/luminous_glade/luminous_gills"
+        },
+        "glowstem_bark": {
+        "textures": "textures/blocks/biomes/overworld/luminous_glade/glowstem_bark"
+        },
+        "glowstem_core": {
+        "textures": "textures/blocks/biomes/overworld/luminous_glade/glowstem_core"
+        },
+        "spore_cluster_block": {
+        "textures": "textures/blocks/biomes/overworld/luminous_glade/spore_cluster_block"
+        },
+            // ======== BIOMES / OVERWORLD / PRISMVEIL WILDS ========
         // -- Terrain & Ground --
         "prism_grass_dirt": {
             "textures": "textures/blocks/biomes/overworld/prismveil_wilds/prism_grass_dirt"

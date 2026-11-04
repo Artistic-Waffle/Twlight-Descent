@@ -1,0 +1,42 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "td:emberglass_expanse_flare_thistle_patch_feature_rule",
+      "places_feature": "td:emberglass_expanse_flare_thistle_patch_feature"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "emberglass_expanse"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 2,
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "scatter_chance": {
+        "numerator": 35,
+        "denominator": 100
+      }
+    }
+  }
+}

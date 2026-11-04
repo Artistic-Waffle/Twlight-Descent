@@ -1,0 +1,23 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "td:luminous_spore_block",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "spore_cluster_block",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:display_name": "Luminous Spore Block"
+    }
+  }
+}

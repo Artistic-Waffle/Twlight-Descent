@@ -1,0 +1,39 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:wisteria_ground_vegetation_feature"
+    },
+    "places_block": [
+      {
+        "block": "td:lunathread_grass",
+        "weight": 10
+      },
+      {
+        "block": "td:evershade_fern",
+        "weight": 4
+      },
+      {
+        "block": "td:mistpetal_shrub",
+        "weight": 2
+      },
+      {
+        "block": "td:veilbud_sprig",
+        "weight": 3
+      }
+    ],
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "minecraft:grass_block",
+        "minecraft:dirt"
+      ]
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

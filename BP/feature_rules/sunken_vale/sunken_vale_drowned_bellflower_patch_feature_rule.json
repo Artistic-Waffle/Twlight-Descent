@@ -1,0 +1,42 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "td:sunken_vale_drowned_bellflower_patch_feature_rule",
+      "places_feature": "td:sunken_vale_drowned_bellflower_patch_feature"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "sunken_vale"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "scatter_chance": {
+        "numerator": 65,
+        "denominator": 100
+      }
+    }
+  }
+}

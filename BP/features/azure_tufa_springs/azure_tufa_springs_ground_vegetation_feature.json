@@ -1,0 +1,48 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:azure_tufa_springs_ground_vegetation_feature"
+    },
+    "places_block": [
+      {
+        "block": "td:short_spring_grass",
+        "weight": 12
+      },
+      {
+        "block": "td:medium_spring_grass",
+        "weight": 7
+      },
+      {
+        "block": "td:tall_spring_grass",
+        "weight": 3
+      },
+      {
+        "block": "td:tufa_fern",
+        "weight": 4
+      },
+      {
+        "block": "td:mineral_sadge",
+        "weight": 3
+      },
+      {
+        "block": "td:tufa_sprout",
+        "weight": 3
+      }
+    ],
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "td:azure_tufa_grass_block",
+        "td:blue_azure_tufa",
+        "td:azure_tufa"
+      ]
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

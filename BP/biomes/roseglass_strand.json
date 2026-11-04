@@ -9,8 +9,8 @@
         "temperature": 0.88,
         "downfall": 0.45,
         "snow_accumulation": [
-          0.0,
-          0.0
+          0,
+          0
         ]
       },
       "minecraft:surface_builder": {
@@ -23,6 +23,38 @@
           "top_material": "td:rosesand",
           "sea_material": "minecraft:water"
         }
+      },
+      "minecraft:surface_material_adjustments": {
+        "adjustments": [
+          {
+            "materials": {
+              "top_material": "td:rosesand_grass_block"
+            },
+            "height_range": [
+              "variable.sea_level + 4",
+              "variable.sea_level + 11"
+            ],
+            "noise_frequency_scale": 0.05,
+            "noise_range": [
+              -1.0,
+              -0.15
+            ]
+          },
+          {
+            "materials": {
+              "top_material": "td:rosesand_grass_block"
+            },
+            "height_range": [
+              "variable.sea_level + 12",
+              "variable.sea_level + 96"
+            ],
+            "noise_frequency_scale": 0.045,
+            "noise_range": [
+              -1.0,
+              0.55
+            ]
+          }
+        ]
       },
       "minecraft:replace_biomes": {
         "replacements": [

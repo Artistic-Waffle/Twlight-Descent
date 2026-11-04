@@ -1,0 +1,44 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "td:frostveil_peaks_foundation_stone_feature_rule",
+      "places_feature": "td:frostveil_peaks_foundation_stone_feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "frostveil_peaks"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 96,
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          128
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      }
+    }
+  }
+}

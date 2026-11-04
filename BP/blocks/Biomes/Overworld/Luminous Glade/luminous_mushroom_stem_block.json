@@ -1,0 +1,43 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "td:luminous_mushroom_stem_block",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "glowstem_core",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "glowstem_core",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "glowstem_bark",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "glowstem_bark",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "glowstem_bark",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "glowstem_bark",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:display_name": "Luminous Mushroom Stem Block"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "td:sunken_vale_river_reeds_water_snap_feature"
+    },
+    "feature_to_snap": "td:sunken_vale_river_reeds_water_feature",
+    "search_range": 22,
+    "surface": "floor",
+    "allow_air_placement": true,
+    "allow_underwater_placement": true,
+    "allowed_surface_blocks": [
+      "td:vale_dirt",
+      "td:miststone"
+    ],
+    "embed_in_surface": false
+  }
+}

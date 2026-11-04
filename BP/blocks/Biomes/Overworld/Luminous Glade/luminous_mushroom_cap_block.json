@@ -1,0 +1,43 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "td:luminous_mushroom_cap_block",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "luminous_cap_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "luminous_gills",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "luminous_cap_side",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "luminous_cap_side",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "luminous_cap_side",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "luminous_cap_side",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:display_name": "Luminous Mushroom Cap Block"
+    }
+  }
+}

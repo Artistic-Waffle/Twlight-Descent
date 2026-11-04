@@ -1,0 +1,38 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:umbral_marsh_cattails_shore_feature"
+    },
+    "places_block": "td:cattails",
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 2,
+      "bottom": [
+        "td:marsh_grass_block",
+        "td:marsh_dirt"
+      ],
+      "north": [
+        "minecraft:water",
+        "minecraft:flowing_water"
+      ],
+      "south": [
+        "minecraft:water",
+        "minecraft:flowing_water"
+      ],
+      "east": [
+        "minecraft:water",
+        "minecraft:flowing_water"
+      ],
+      "west": [
+        "minecraft:water",
+        "minecraft:flowing_water"
+      ]
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}
