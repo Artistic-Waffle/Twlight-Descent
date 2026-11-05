@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.3",
+    "format_version": "1.26.50",
     "minecraft:entity": {
         "description": {
             "identifier": "td:chair_sit",
@@ -18,7 +18,7 @@
                     "player"
                 ],
                 "seats": {
-                    "position": [0,0.63,0]
+                    "position": [0, 0.5, -0.2]
                 }
             },
             "minecraft:type_family": {

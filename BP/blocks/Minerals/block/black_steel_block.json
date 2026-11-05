@@ -1,6 +1,6 @@
 
 {
-	"format_version": "1.26.3",
+	"format_version": "1.26.50",
 	"minecraft:block": {
 		"description": {
 			"identifier": "td:black_steel_block"

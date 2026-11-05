@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.3",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "td:bar_table",
@@ -18,14 +18,7 @@
 				"size": [16,16,16]
             },
             "minecraft:geometry":{
-                "identifier": "geometry.bar_table",
-                "bone_visibility": {
-                    "main_leg":true,
-                    "left_front":false,
-                    "left_back":false,
-                    "right_front":false,
-                    "right_back":false
-                }
+                "identifier": "geometry.bar_table"
                 
             },
             "minecraft:material_instances": {

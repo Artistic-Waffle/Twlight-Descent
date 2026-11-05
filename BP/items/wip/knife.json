@@ -1,5 +1,5 @@
 {
-	"format_version": "1.26.3",
+	"format_version": "1.26.50",
 	"minecraft:item": {
 		"description": {
 			"identifier": "td:knife",
@@ -25,7 +25,7 @@
 				"slot": "sword"
 			},
 			"minecraft:can_destroy_in_creative": false,
-			"tag:minecraft:is_sword": {},
+		
 			"minecraft:display_name": {
 				"value": "Knife"
 			}
