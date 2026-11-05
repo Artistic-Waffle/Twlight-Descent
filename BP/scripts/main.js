@@ -1,2 +1,2 @@
-import chair_seat from './chairSeat.js';
-
+import "./chairSeat.js";
+console.warn("[TD] Chair script loaded!");

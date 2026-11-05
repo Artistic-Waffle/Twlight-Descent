@@ -64,14 +64,6 @@
 			"version": "2.3.0"
 		},
 		{
-			"module_name": "@minecraft/server-admin",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-net",
-			"version": "1.0.0-beta"
-		},
-		{
 			"module_name": "@minecraft/common",
 			"version": "1.3.0"
 		}
