@@ -1,0 +1,54 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:luminous_glade_cave_foliage_single_feature"
+    },
+    "places_block": [
+      {
+        "block": "td:glade_short_grass",
+        "weight": 13
+      },
+      {
+        "block": "td:luminous_fern",
+        "weight": 5
+      },
+      {
+        "block": "td:white_fern",
+        "weight": 2
+      },
+      {
+        "block": "td:glade_tall_grass",
+        "weight": 2
+      },
+      {
+        "block": "td:glade_bush",
+        "weight": 1
+      },
+      {
+        "block": "td:moon_orchid",
+        "weight": 1
+      },
+      {
+        "block": "td:starflower",
+        "weight": 1
+      },
+      {
+        "block": "td:lumen_bloom_flower",
+        "weight": 1
+      }
+    ],
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "td:luminous_grass_block"
+      ]
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

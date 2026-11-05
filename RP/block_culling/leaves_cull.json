@@ -12,7 +12,7 @@
           "face": "north"
         },
         "direction": "north",
-        "condition": "same_culling_layer"
+        "condition": "same_block"
       },
       {
         "geometry_part": {
@@ -21,7 +21,7 @@
           "face": "west"
         },
         "direction": "west",
-        "condition": "same_culling_layer"
+        "condition": "same_block"
       },
       {
         "geometry_part": {
@@ -30,7 +30,7 @@
           "face": "up"
         },
         "direction": "up",
-        "condition": "same_culling_layer"
+        "condition": "same_block"
       },
       {
         "geometry_part": {
@@ -38,7 +38,8 @@
           "cube": 0,
           "face": "south"
         },
-        "direction": "south"
+        "direction": "south",
+        "condition": "same_block"
       },
       {
         "geometry_part": {
@@ -46,7 +47,8 @@
           "cube": 0,
           "face": "east"
         },
-        "direction": "east"
+        "direction": "east",
+        "condition": "same_block"
       },
       {
         "geometry_part": {
@@ -54,7 +56,8 @@
           "cube": 0,
           "face": "down"
         },
-        "direction": "down"
+        "direction": "down",
+        "condition": "same_block"
       }
         ]
     }

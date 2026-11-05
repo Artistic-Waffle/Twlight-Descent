@@ -16,7 +16,7 @@
       ]
     },
     "distribution": {
-      "iterations": 12,
+      "iterations": 1,
       "coordinate_eval_order": "xzy",
       "x": {
         "distribution": "uniform",
@@ -32,6 +32,10 @@
           0,
           15
         ]
+      },
+      "scatter_chance": {
+        "numerator": 1,
+        "denominator": 4
       }
     }
   }

@@ -33,7 +33,6 @@
       "auto_rotate": false,
       "min_sides_must_attach": 1,
       "bottom": [
-        "td:luminous_dirt",
         "td:luminous_grass_block"
       ]
     },

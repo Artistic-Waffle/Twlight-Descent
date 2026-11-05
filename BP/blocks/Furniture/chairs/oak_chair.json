@@ -51,32 +51,16 @@
             },
             "minecraft:display_name": "Oak Chair",
             "minecraft:collision_box" : {
-				"origin": [
-					-6,
-					0,
-					-6
-				],
-				"size": [
-					12,
-					10,
-					12
-				]
-			},
-			"minecraft:selection_box" : {
-				"origin": [
-					-6,
-					0,
-					-6
-				],
-				"size": [
-					12,
-					10,
-					12
-				]
-			
-			},
-            "minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 1.2
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 10, 12 ]
+          },
+          "minecraft:selection_box" : {
+            "origin": [ -6, 0, -6 ],
+            "size": [ 12, 10, 12 ]
+          
+          },
+          "minecraft:destructible_by_mining": {
+				    "seconds_to_destroy": 1.2
 			}
 		}
 	}

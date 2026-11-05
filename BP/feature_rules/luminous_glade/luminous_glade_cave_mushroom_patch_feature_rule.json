@@ -3,10 +3,10 @@
   "minecraft:feature_rules": {
     "description": {
       "identifier": "td:luminous_glade_cave_mushroom_patch_feature_rule",
-      "places_feature": "td:luminous_glade_cave_mushroom_patch_feature"
+      "places_feature": "td:luminous_glade_cave_mushroom_floor_snap_feature"
     },
     "conditions": {
-      "placement_pass": "underground_pass",
+      "placement_pass": "after_underground_pass",
       "minecraft:biome_filter": [
         {
           "test": "has_biome_tag",
@@ -16,7 +16,7 @@
       ]
     },
     "distribution": {
-      "iterations": 18,
+      "iterations": 2,
       "coordinate_eval_order": "xzy",
       "x": {
         "distribution": "uniform",
@@ -28,8 +28,8 @@
       "y": {
         "distribution": "uniform",
         "extent": [
-          -30,
-          40
+          -46,
+          38
         ]
       },
       "z": {

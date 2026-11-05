@@ -31,13 +31,13 @@
               "top_material": "td:azure_tufa_grass_block"
             },
             "height_range": [
-              "variable.sea_level + 3",
-              "variable.sea_level + 90"
+              "variable.sea_level + 2",
+              "variable.sea_level + 250"
             ],
             "noise_frequency_scale": 0.045,
             "noise_range": [
               -1.0,
-              -0.3
+              -0.6
             ]
           },
           {
@@ -76,10 +76,10 @@
           {
             "dimension": "minecraft:overworld",
             "targets": [
-              "minecraft:meadow"
+              "minecraft:extreme_hills"
             ],
-            "amount": 0.24,
-            "noise_frequency_scale": 0.018
+            "amount": 0.28,
+            "noise_frequency_scale": 0.026
           }
         ]
       },

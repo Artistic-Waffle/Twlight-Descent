@@ -37,9 +37,7 @@
       "auto_rotate": false,
       "min_sides_must_attach": 1,
       "bottom": [
-        "td:azure_tufa_grass_block",
-        "td:blue_azure_tufa",
-        "td:azure_tufa"
+        "td:azure_tufa_grass_block"
       ]
     },
     "enforce_placement_rules": false,
