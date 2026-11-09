@@ -1,0 +1,27 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "td:scribewind_windflower_single_feature"
+    },
+    "places_block": [
+      {
+        "block": "td:windflower",
+        "weight": 1
+      }
+    ],
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "td:draftgrass_block",
+        "td:draftsoil"
+      ]
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false
+  }
+}

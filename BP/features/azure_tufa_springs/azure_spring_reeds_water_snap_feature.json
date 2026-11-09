@@ -1,0 +1,19 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "td:azure_spring_reeds_water_snap_feature"
+    },
+    "feature_to_snap": "td:azure_spring_reeds_water_feature",
+    "search_range": 22,
+    "surface": "floor",
+    "allow_air_placement": true,
+    "allow_underwater_placement": true,
+    "allowed_surface_blocks": [
+      "td:blue_azure_tufa",
+      "td:azure_tufa",
+      "td:azure_tufa_grass_block"
+    ],
+    "embed_in_surface": false
+  }
+}

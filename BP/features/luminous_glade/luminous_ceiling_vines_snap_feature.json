@@ -1,0 +1,18 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "td:luminous_ceiling_vines_snap_feature"
+    },
+    "feature_to_snap": "td:luminous_ceiling_vines_feature",
+    "search_range": 16,
+    "surface": "ceiling",
+    "allowed_surface_blocks": [
+      "minecraft:stone",
+      "minecraft:deepslate",
+      "td:luminous_dirt"
+    ],
+    "allow_air_placement": true,
+    "allow_underwater_placement": false
+  }
+}

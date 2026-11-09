@@ -20,16 +20,16 @@
             },
             "minecraft:collision_box": false,
             "minecraft:selection_box": {
-                "origin": [
-                    -8,
-                    0,
-                    -8
-                ],
-                "size": [
-                    16,
-                    16,
-                    16
-                ]
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                {
+                    "liquid_type": "water",
+                    "can_contain_liquid": true
+                }
+            ]
             },
             "minecraft:display_name": "River Reeds",
             "minecraft:tags": [

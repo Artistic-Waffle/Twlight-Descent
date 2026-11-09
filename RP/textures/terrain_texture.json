@@ -392,6 +392,9 @@
         "gloomthorn_leaves": {
             "textures": "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_leaves"
         },
+        "gloomthorn_leaves_v2": {
+            "textures": "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_leaves_v2"
+        },
         "gloomthorn_log": {
             "textures": "textures/blocks/biomes/overworld/darkened_thicket/gloomthorn_log"
         },
@@ -640,6 +643,9 @@
         // -- Trees & Wood --
         "rimebark_leaves": {
             "textures": "textures/blocks/biomes/overworld/frostveil_peaks/rimebark_leaves"
+        },
+        "frostleaf_leaves": {
+            "textures": "textures/blocks/biomes/overworld/frostveil_peaks/frostleaf_leaves"
         },
         "rimebark_log": {
             "textures": "textures/blocks/biomes/overworld/frostveil_peaks/rimebark_log"
@@ -1509,8 +1515,8 @@
         "drowned_bellflower": {
             "textures": "textures/blocks/biomes/overworld/sunken_vale/drowned_bellflower"
         },
-        "moontear_lily_2": {
-            "textures": "textures/blocks/biomes/overworld/sunken_vale/moontear_lily"
+        "swamp_moontear_lily": {
+            "textures": "textures/blocks/biomes/overworld/sunken_vale/swamp_moontear_lily"
         },
         "mossy_plaster": {
             "textures": "textures/blocks/biomes/overworld/sunken_vale/mossy_plaster"

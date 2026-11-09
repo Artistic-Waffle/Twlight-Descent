@@ -31,6 +31,9 @@
                     16
                 ]
             },
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "snowlogging"
+            },
             "minecraft:display_name": "Icebloom Flower",
             "minecraft:tags": [
                 "td:foliage",

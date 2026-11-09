@@ -12,7 +12,8 @@
           "face": "north"
         },
         "direction": "north",
-        "condition": "same_block"
+        "condition": "same_block",
+        "cull_against_full_and_opaque": true
       },
       {
         "geometry_part": {
@@ -21,7 +22,8 @@
           "face": "west"
         },
         "direction": "west",
-        "condition": "same_block"
+        "condition": "same_block",
+        "cull_against_full_and_opaque": true
       },
       {
         "geometry_part": {
@@ -30,7 +32,8 @@
           "face": "up"
         },
         "direction": "up",
-        "condition": "same_block"
+        "condition": "same_block",
+        "cull_against_full_and_opaque": true
       },
       {
         "geometry_part": {
@@ -39,7 +42,7 @@
           "face": "south"
         },
         "direction": "south",
-        "condition": "same_block"
+        "cull_against_full_and_opaque": true
       },
       {
         "geometry_part": {
@@ -48,7 +51,7 @@
           "face": "east"
         },
         "direction": "east",
-        "condition": "same_block"
+        "cull_against_full_and_opaque": true
       },
       {
         "geometry_part": {
@@ -57,7 +60,7 @@
           "face": "down"
         },
         "direction": "down",
-        "condition": "same_block"
+        "cull_against_full_and_opaque": true
       }
         ]
     }

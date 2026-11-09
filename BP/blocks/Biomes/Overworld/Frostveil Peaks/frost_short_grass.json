@@ -32,6 +32,9 @@
                 ]
             },
             "minecraft:display_name": "Frost Short Grass",
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "snowlogging"
+            },
             "minecraft:tags": [
                 "td:foliage",
                 "td:biome_frostveil_peaks",

@@ -18,13 +18,13 @@
             "minecraft:geometry": {
                 "identifier": "geometry.plane_medium"
             },
-             "minecraft:collision_box": {
-                "origin": [ -8, 0, -8 ], 
-                "size": [ 16, 16, 16 ]
-            },
+            "minecraft:collision_box": false,
             "minecraft:selection_box": {
                 "origin": [ -8, 0, -8 ],
                 "size": [ 16, 16, 16 ]
+            },
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "snowlogging"
             },
             "minecraft:display_name": "Frost Crystal Cluster"
         }

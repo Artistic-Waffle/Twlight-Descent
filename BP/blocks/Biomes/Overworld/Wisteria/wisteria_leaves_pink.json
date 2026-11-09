@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:geometry": {
-                "identifier": "geometry.block",
+                "identifier": "geometry.unit_cube",
                 "culling": "td:leaves_cull",
                 "culling_layer": "minecraft:culling_layer.leaves"
             },

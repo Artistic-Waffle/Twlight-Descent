@@ -12,12 +12,11 @@
                 "*": {
                     "texture": "rimebark_leaves",
                     "render_method": "alpha_test_to_opaque",
-                    "ambient_occlusion": 0.7,
-                    "face_dimming": false
+                    "face_dimming": true
                 }
             },
             "minecraft:geometry": {
-                "identifier": "geometry.block",
+                "identifier": "geometry.unit_cube",
                 "culling": "td:leaves_cull",
                 "culling_layer": "minecraft:culling_layer.leaves"
             },

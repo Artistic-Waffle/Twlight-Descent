@@ -1,0 +1,25 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "td:luminous_cave_foliage_floor_snap_feature"
+    },
+    "feature_to_snap": "td:luminous_cave_foliage_patch_feature",
+    "search_range": 28,
+    "surface": "floor",
+    "allowed_surface_blocks": [
+      "minecraft:stone",
+      "minecraft:deepslate",
+      "minecraft:gravel",
+      "minecraft:dirt",
+      "minecraft:tuff",
+      "minecraft:andesite",
+      "minecraft:diorite",
+      "minecraft:granite",
+      "td:luminous_dirt",
+      "td:luminous_grass_block"
+    ],
+    "allow_air_placement": true,
+    "allow_underwater_placement": false
+  }
+}

@@ -10,13 +10,13 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "gloomthorn_leaves",
+                    "texture": "gloomthorn_leaves_v2",
                     "render_method": "alpha_test_to_opaque",
                    "ambient_occlusion": 0.45
                 }
             },
             "minecraft:geometry": {
-                "identifier": "geometry.block",
+                "identifier": "geometry.unit_cube",
                 "culling": "td:leaves_cull",
                 "culling_layer": "minecraft:culling_layer.leaves"
             },

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "td:azure_pool_structure_feature"
+    },
+    "structure_name": "td:azure_tufa_pool_small",
+    "adjustment_radius": 2,
+    "facing_direction": "random",
+    "rotate_around_center": true,
+    "ground_level": 2,
+    "constraints": {
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "td:blue_azure_tufa",
+          "td:azure_tufa",
+          "td:azure_tufa_grass_block"
+        ],
+        "only_check_intersection_for_motion_blocking_blocks": true
+      }
+    }
+  }
+}

@@ -31,6 +31,9 @@
                     16
                 ]
             },
+           "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "snowlogging"
+            },
             "minecraft:display_name": "Frosted Fern",
             "minecraft:tags": [
                 "td:foliage",

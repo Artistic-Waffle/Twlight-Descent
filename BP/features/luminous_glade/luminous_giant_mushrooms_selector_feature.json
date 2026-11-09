@@ -1,0 +1,22 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "td:luminous_giant_mushrooms_selector_feature"
+    },
+    "features": [
+      [
+        "td:luminous_mushroom_small_feature",
+        5
+      ],
+      [
+        "td:luminous_mushroom_medium_feature",
+        3
+      ],
+      [
+        "td:luminous_mushroom_ancient_feature",
+        1
+      ]
+    ]
+  }
+}
